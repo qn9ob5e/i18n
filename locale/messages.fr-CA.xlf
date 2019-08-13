@@ -1,0 +1,3019 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="appDescription" datatype="html">
+        <source>syllabus management software</source>
+        <target>syllabus management software!</target>
+      </trans-unit>
+      <trans-unit id="b5629d298ff1a69b8db19a4ba2995c76b52da604" datatype="html">
+        <source>Support</source>
+        <target>Support!</target>
+      </trans-unit>
+      <trans-unit id="pageTitlePrivacyPolicy" datatype="html">
+        <source>Privacy Policy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="5a682e199e01142a1a4cdb5b5868dadf691ab7c3" datatype="html">
+        <source>© 2019 Simple Higher Ed</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ac67a80778287d61a48f19dcfd4013b60b635c76" datatype="html">
+        <source>
+                            :Syllabus: management system
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="altDashboard" datatype="html">
+        <source>Dashboard page</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="menuReports" datatype="html">
+        <source>Reports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dashboard" datatype="html">
+        <source>Dashboard</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="published" datatype="html">
+        <source>Published</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="templates" datatype="html">
+        <source>Templates</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="openItems" datatype="html">
+        <source>Open Items</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentMy" datatype="html">
+        <source>My</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="materialList" datatype="html">
+        <source>Material List</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentLibrary" datatype="html">
+        <source>Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="admin" datatype="html">
+        <source>Admin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentManager" datatype="html">
+        <source>Manager</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHub" datatype="html">
+        <source>Data Hub</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="adminMenuSettings" datatype="html">
+        <source>Settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="profile" datatype="html">
+        <source>Profile</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="menuLogout" datatype="html">
+        <source>Logout</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="login" datatype="html">
+        <source>Login</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="warning" datatype="html">
+        <source>Warning</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="warningDeactivateChildren" datatype="html">
+        <source>
+            Inactivating this item will automatically inactivate its children:
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonClose" datatype="html">
+        <source>
+            Close
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="undelete" datatype="html">
+        <source>Undelete</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Delete</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notifyEditors" datatype="html">
+        <source>
+    Notify editors
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="messageSubject" datatype="html">
+        <source>Subject</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="subjectRequired" datatype="html">
+        <source>Subject is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="content" datatype="html">
+        <source>Content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noticeSyllabiList" datatype="html">
+        <source>
+            A list of the relevant :syllabi: will appear after the email's content section.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="replyTo" datatype="html">
+        <source>Reply to</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorInvalidEmail" datatype="html">
+        <source>Must be a valid email address</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="refresh" datatype="html">
+        <source>
+                    Refresh
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementStudent" datatype="html">
+        <source>Student</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementCount" datatype="html">
+        <source>Count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementLastViewed" datatype="html">
+        <source>Last viewed</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementNotviewed" datatype="html">
+        <source>
+                    Not viewed
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonEngagement" datatype="html">
+        <source>
+                            Engagement
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementNoEnrollment" datatype="html">
+        <source>
+                        No enrollment
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementNoEngagement" datatype="html">
+        <source>
+                        No engagement
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importContent" datatype="html">
+        <source>Import content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importSelectSource" datatype="html">
+        <source>Select source</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importMapContent" datatype="html">
+        <source>Map content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importConfirm" datatype="html">
+        <source>Confirm import</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonStartImport" datatype="html">
+        <source>
+                    Start import of the following content
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="recentlySubmitted" datatype="html">
+        <source>has been submitted.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusLinks" datatype="html">
+        <source>
+    You may copy the links below to provide a link or an embedded version of the :syllabus: for an
+    external system. </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusPublishedPageLink" datatype="html">
+        <source>
+        These links are also available on the Published page.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusAutoCompleted" datatype="html">
+        <source>
+            This :docType: has been automatically completed.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusCourseMaster" datatype="html">
+        <source>
+            This :docType: will be automatically generated once its :course_master: has been completed.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusRequiredComponents" datatype="html">
+        <source>
+                This :docType: will be automatically completed once the following required components are
+                created:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="prepositionBy" datatype="html">
+        <source>
+                        by
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reapproval" datatype="html">
+        <source>
+                            Must be
+                            resubmitted for approval.
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNeedsEdit" datatype="html">
+        <source>
+                        Needs editing from one of the following:
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNeedsApproval" datatype="html">
+        <source>
+                        Needs approval from one of the following:
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noSkip" datatype="html">
+        <source>
+                    There are no users assigned to this step, and it may not be skipped.
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusInProgress" datatype="html">
+        <source>
+                    In progress
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusDetails" datatype="html">
+        <source>
+        Status details
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusInactive" datatype="html">
+        <source>
+            This :docType: has been inactivated and will need to be re-activated in order for it to be
+            worked on and published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNotCompleteTemplate" datatype="html">
+        <source>
+            The above steps need to be completed before this :docType: will impact
+            published :syllabi:.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNotCompletePublished" datatype="html">
+        <source>
+            The above steps need to be completed before updates made to this :docType: will be
+            published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNotCompleteNotPublished" datatype="html">
+        <source>
+            The above steps need to be completed before this :docType: will be published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="missingRequiredComponents" datatype="html">
+        <source>
+                This :docType: will be published once the following required components are created:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="completeProcessing" datatype="html">
+        <source>
+            This :docType: is completed and will be published once it has been processed by the
+            application.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="termNotPublished" datatype="html">
+        <source>
+            This :term: is not published. Any :syllabi:
+            will be hidden from students until it is published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statuscompletedSyllabus" datatype="html">
+        <source>
+            This :docType: is completed and impacting all associated :syllabi:. Recent
+            changes may take several minutes to be reflected in published :syllabi:.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statuspublishedTermSyllabus" datatype="html">
+        <source>
+            This :docType: is published and viewable by students. Recent changes may take several
+            seconds to be reflected.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusPublishedSyllabus" datatype="html">
+        <source>
+            This :docType: is published. Recent changes may take several seconds to be reflected.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusProcessingPublished" datatype="html">
+        <source>
+            This :docType: is currently processing. Any new updates may not be reflected until this is
+            completed.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusProcessing" datatype="html">
+        <source>
+            This :docType: is currently processing. It will become published once this is completed.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="newField" datatype="html">
+        <source>
+    Create new field
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="displayName" datatype="html">
+        <source>
+            display name
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="hideName" datatype="html">
+        <source>
+            name is hidden
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorNameRequired" datatype="html">
+        <source>Name is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldPlainText" datatype="html">
+        <source>Plain text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldRichText" datatype="html">
+        <source>Rich text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldImage" datatype="html">
+        <source>Image</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldLink" datatype="html">
+        <source>Link</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldType" datatype="html">
+        <source>Field type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorFieldType" datatype="html">
+        <source>Field type is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="none" datatype="html">
+        <source>none</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="requiresRichtext" datatype="html">
+        <source> - requires
+                    rich text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="requiresImage" datatype="html">
+        <source> - requires
+                    image</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldAutopopulate" datatype="html">
+        <source>Auto populate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldDefaultValue" datatype="html">
+        <source>Default value</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="required" datatype="html">
+        <source>
+            Required
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editFieldHeader" datatype="html">
+        <source>Modify</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="createComponent" datatype="html">
+        <source>Create new component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="materialsComponent" datatype="html">
+        <source>Materials</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="objectivesComponent" datatype="html">
+        <source>Objectives</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="instructor" datatype="html">
+        <source>Instructor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentType" datatype="html">
+        <source>Component type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorComponentType" datatype="html">
+        <source>Component type is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reorderComponents" datatype="html">
+        <source>Reorder components</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadDragBrowse" datatype="html">
+        <source>
+            Drag file here, or click to browse.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="upload" datatype="html">
+        <source>Upload</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadUrl" datatype="html">
+        <source>URL</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonSave" datatype="html">
+        <source>
+            Save
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonCancel" datatype="html">
+        <source>
+            Cancel
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalAdd" datatype="html">
+        <source>Add Conditional Logic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalModify" datatype="html">
+        <source>Modify Conditional Logic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="logicTypeAny" datatype="html">
+        <source>Any</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="logicTypeAnyDefinition" datatype="html">
+        <source>(any condition must match)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="all" datatype="html">
+        <source>All</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="allConditionsMatch" datatype="html">
+        <source>(all conditions must match)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorLogicType" datatype="html">
+        <source>Logic type is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonAddCondition" datatype="html">
+        <source>Add condition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="selectOrganization" datatype="html">
+        <source>Select an organization</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusCompleted" datatype="html">
+        <source>
+                        Completed
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusNotStarted" datatype="html">
+        <source>
+                        Not Started
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dueOn" datatype="html">
+        <source>Due on</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noUsersAssigned" datatype="html">
+        <source>No users are assigned</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noApproverAssigned" datatype="html">
+        <source>No approvers are assigned</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="viewSyllabus" datatype="html">
+        <source>
+                    View
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="printSyllabus" datatype="html">
+        <source>
+                    Print
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="shareSyllabus" datatype="html">
+        <source>
+                    Share
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="submissionHistory" datatype="html">
+        <source>History</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusNotSubmitted" datatype="html">
+        <source>This :syllabus: has not yet been submitted.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="templateNotSubmitted" datatype="html">
+        <source>This template has not yet been submitted.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="moreHistory" datatype="html">
+        <source>Show More History</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="lessHistory" datatype="html">
+        <source>Show Less History</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noMoreHistory" datatype="html">
+        <source>
+                There is no additional history for this</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="template" datatype="html">
+        <source> template.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="comment" datatype="html">
+        <source>comment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentOptional" datatype="html">
+        <source>Optional</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentVisible" datatype="html">
+        <source>Visible</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentInvisible" datatype="html">
+        <source>Invisible</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentVisibleTooltip" datatype="html">
+        <source>Determines whether or not this component will be displayed on published documents.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentPublic" datatype="html">
+        <source>Public</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentPrivate" datatype="html">
+        <source>Private</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentPublicTooltip" datatype="html">
+        <source>Manage privacy by limiting visibility of this component to just the instructor and students enrolled in the section.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addConditionalContent" datatype="html">
+        <source>Add conditional content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalTooltip" datatype="html">
+        <source>Allows you to set up logic that determines which content to display.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipDeleteComponent" datatype="html">
+        <source>Permanently removes the component from your template.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="deleteComponent" datatype="html">
+        <source>Delete component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="lockComponent" datatype="html">
+        <source>
+            Lock
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipLock" datatype="html">
+        <source>Component may not be edited in child templates</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentEditors" datatype="html">
+        <source>
+            Editors
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipEditors" datatype="html">
+        <source>Who will have the ability to make changes to this component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentFields" datatype="html">
+        <source>
+            Fields
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipFields" datatype="html">
+        <source>Define which fields display for this component.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="helptext" datatype="html">
+        <source>
+            Help text
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipHelptext" datatype="html">
+        <source>Text to help the end user to know what to place in the component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonSubmit" datatype="html">
+        <source>
+                Submit
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonApprove" datatype="html">
+        <source>
+                Approve
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonReject" datatype="html">
+        <source>
+                Reject
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusUnsubChanges" datatype="html">
+        <source>
+                  This :syllabus: has unsubmitted changes.
+              </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="templateUnsubChanges" datatype="html">
+        <source>
+                  This template has unsubmitted changes.
+              </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addNewComponent" datatype="html">
+        <source>Add new component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonAdd" datatype="html">
+        <source>Add</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addCompnent" datatype="html">
+        <source>Add component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="previewSyllabus" datatype="html">
+        <source>Preview</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonSend" datatype="html">
+        <source>
+                Send
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonSaveNew" datatype="html">
+        <source>
+                Save &amp; new
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonClear" datatype="html">
+        <source>
+                Clear
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonConfirmDelete" datatype="html">
+        <source>
+                    Confirm deletion of this item.
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="finishedSaving" datatype="html">
+        <source>
+                Finished saving.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipUploadFiles" datatype="html">
+        <source>Upload image</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleNotFound" datatype="html">
+        <source>Not Found</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageNotFound" datatype="html">
+        <source>
+    The page you are looking for can not be found.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleMyCourses" datatype="html">
+        <source>My :Courses:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleSyllabusLibrary" datatype="html">
+        <source>:Syllabus: Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorEmailRequired" datatype="html">
+        <source>
+                    Email is a required field
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorEmailInUse" datatype="html">
+        <source>
+                    This email is in use by another :account:
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="unknownSyllabus" datatype="html">
+        <source>
+        The requested :syllabus: could not be found. Please try searching in the :Syllabus: Library
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noticeSyllabusNotAvailable" datatype="html">
+        <source>
+    Sit tight, the requested :syllabus: is currently being worked on by your instructor and will be available shortly.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noticePendingApproval" datatype="html">
+        <source>
+    The requested :syllabus: has been completed but is pending approval. Please check back later.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusProcessing" datatype="html">
+        <source>
+    The requested :syllabus: is currently being processed and will be available momentarily. If you continue to receive this message please contact support.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusPendingContributors" datatype="html">
+        <source>
+    This :syllabus: is completed, but is awaiting content from other contributors. Please check back later.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="lastUpdated" datatype="html">
+        <source>Last updated</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="follow" datatype="html">
+        <source>Follow</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="following" datatype="html">
+        <source>Following</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="edit" datatype="html">
+        <source>
+                Edit syllabus
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="viewOtherSyllabi" datatype="html">
+        <source>
+                View your other :course: :syllabi:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleLoginError" datatype="html">
+        <source>Login Error</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleSyllabusManager" datatype="html">
+        <source>:Syllabus: Manager</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusManagerNoCurrentTerms" datatype="html">
+        <source>
+                There are no current or future :terms:. Please create a new :term: with a future dated "start date" or
+                "end date".
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusManagerNoCurrentTermsLink" datatype="html">
+        <source>
+                create new :term:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusManagerNotEditable" datatype="html">
+        <source>
+                :Syllabus: editing and :course master: editing are both
+                disabled for this term.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusManagerHistoric" datatype="html">
+        <source>
+                This :term: is historic and is only editable by administrators.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusManagerNotice" datatype="html">
+        <source>
+                    Please note, changes made on this page impact all :syllabi: for the selected
+                    :term: and may take several minutes to be reflected throughout the system.
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="clipboardCopied" datatype="html">
+        <source>Copied</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="toclipboard" datatype="html">
+        <source>to clipboard.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonCopy" datatype="html">
+        <source>Copy</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="warningPreview" datatype="html">
+        <source>
+            Please note, this is a :syllabus: preview and any edits may not yet be published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="75a514866d17a497f7706cf0397817ad4759a09d" datatype="html">
+        <source>
+            Please note, this is a :course_master: preview and any edits may not yet be published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="warningPreviewUnpublished" datatype="html">
+        <source>
+            Please note, this is a template preview and is not published.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="viewOther" datatype="html">
+        <source>View your other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="unavilableSyllabus" datatype="html">
+        <source>
+    Sit tight, the requested :syllabus: is currently being worked on and will be available shortly.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="altViewSyllabus" datatype="html">
+        <source>View syllabus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="followSyllabusTooltip" datatype="html">
+        <source>Receive email notices any time this document is updated.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusLibraryIndex" datatype="html">
+        <source>Index</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalPhrase" datatype="html">
+        <source>
+                    This will appear if
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalPhrasingAny" datatype="html">
+        <source>
+                    This will appear if any of the following are true:
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalPhrasingAll" datatype="html">
+        <source>
+                    This will appear if all of the following are true:
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="coursesOrgTooltip" datatype="html">
+        <source>All courses must be owned by an organization. Organization ownership determines which syllabus template to associate with the course.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addNew" datatype="html">
+        <source>Add new</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionalIs" datatype="html">
+        <source>is</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionIsNot" datatype="html">
+        <source>is not</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionIsEmpty" datatype="html">
+        <source>is empty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionIsNotEmpty" datatype="html">
+        <source>is not empty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionStartsWith" datatype="html">
+        <source>starts with</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionEndsWith" datatype="html">
+        <source>ends with</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionContains" datatype="html">
+        <source>contains</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionMatches" datatype="html">
+        <source>matches</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionNewLine" datatype="html">
+        <source>Insert multiple values on new lines</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionContainsExplanation" datatype="html">
+        <source>
+    Contains: True if the value appears anywhere in the property.
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionMatchesExplanation" datatype="html">
+        <source>
+    Matches: Use one or more wildcard characters </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="removeConditions" datatype="html">
+        <source>Remove condition</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="confirmConditionRemoval" datatype="html">
+        <source>Confirm removal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="conditionNotConfig" datatype="html">
+        <source>Condition is not configured</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderBookSearch" datatype="html">
+        <source>Book search</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="hide" datatype="html">
+        <source>
+                    Hide
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="show" datatype="html">
+        <source>
+                    Show
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="combinedContentRequired" datatype="html">
+        <source>is a required field.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonReplace" datatype="html">
+        <source>
+                    Replace
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonAddImage" datatype="html">
+        <source>
+                    Add image
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonRemove" datatype="html">
+        <source>
+                Remove
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="missingRequired" datatype="html">
+        <source>
+        This field is required
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerPendingApproval" datatype="html">
+        <source>Pending Approval</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonMaterialList" datatype="html">
+        <source>
+          View Material List
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="search" datatype="html">
+        <source>Search</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="statusAwaitingApproval" datatype="html">
+        <source>Awaiting approval</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderStatuses" datatype="html">
+        <source>Statuses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="trackErrorStatus" datatype="html">
+        <source>At least one status is required</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsErrorType" datatype="html">
+        <source>At least one type is required</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="trackNotPublished" datatype="html">
+        <source>Not Published</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="trackError" datatype="html">
+        <source>At least one selection is required</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="trackCourseNumber" datatype="html">
+        <source>Course number</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="trackNotify" datatype="html">
+        <source>
+        Notify
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noResults" datatype="html">
+        <source>You do not have any open items at this time.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="allowSyllabusEditing" datatype="html">
+        <source>
+            Allow :syllabus: editing
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipSyllabusEditing" datatype="html">
+        <source>Turn on/off users’ ability to edit and submit syllabi.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="allowCourseEditing" datatype="html">
+        <source>
+            Allow :course master: editing
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipCourseEditing" datatype="html">
+        <source>Turn on/off users’ ability to edit and submit course masters.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sliderPublishSyllabi" datatype="html">
+        <source>
+            Publish :syllabi:
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="9179d40168020d0fdb678e595e36fdb1ebae31db" datatype="html">
+        <source>Publishes syllabi to the syllabus library once they have been submitted by instructors and approved (if applicable).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="siteLogo" datatype="html">
+        <source>Site Logo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noticeLogo" datatype="html">
+        <source>
+                        Please note, images larger than 300px wide and 150px high will be scaled down to these sizes while maintaining their original ratio.
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="customLinks" datatype="html">
+        <source>Custom links</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionCustomMyCourses" datatype="html">
+        <source>
+                    This link will appear as a button below the :term: selector on the
+                    'My :Courses:' page.
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionCustomMaterialList" datatype="html">
+        <source>
+                    This link will appear as a button below the :term: selector on the 'Material List' page.
+                </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStyle" datatype="html">
+        <source>:Syllabus: style</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noticeSyllabusStyle" datatype="html">
+        <source>
+            Please note, changes made to the :syllabus: style impact all :syllabi: of current :terms: and may take several minutes to be reflected throughout the system.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderSyllabusStyle" datatype="html">
+        <source>Syllabus style</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyAccount" datatype="html">
+        <source>Account</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyAccounts" datatype="html">
+        <source>Accounts</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologySyllabus" datatype="html">
+        <source>Syllabus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologySyllabi" datatype="html">
+        <source>Syllabi</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyCourseMaster" datatype="html">
+        <source>Course master</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyCourseMasters" datatype="html">
+        <source>Course masters</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologySection" datatype="html">
+        <source>Section</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologySections" datatype="html">
+        <source>Sections</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyCourse" datatype="html">
+        <source>Course</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyCourses" datatype="html">
+        <source>Courses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="subject" datatype="html">
+        <source>Subject</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologySubjects" datatype="html">
+        <source>Subjects</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="term" datatype="html">
+        <source>Term</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyTerms" datatype="html">
+        <source>Terms</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganization" datatype="html">
+        <source>Organization</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganizations" datatype="html">
+        <source>Organizations</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipAddAttribute" datatype="html">
+        <source>Add new :entityType: attribute</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorAttributeName" datatype="html">
+        <source>This name is in use by another attribute</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="typePicklist" datatype="html">
+        <source>Picklist</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="typeText" datatype="html">
+        <source>Text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="typeRichtext" datatype="html">
+        <source>Rich Text</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAttributeType" datatype="html">
+        <source>Attribute type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderPossibleValues" datatype="html">
+        <source>Possible values</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="active" datatype="html">
+        <source>
+                Active
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="taskSettings" datatype="html">
+        <source>Task settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAllowSorting" datatype="html">
+        <source>Allow sorting</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAdHoc" datatype="html">
+        <source>Allow ad hoc</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerEditorSettings" datatype="html">
+        <source>Editor settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAllowAdHoc" datatype="html">
+        <source>Allow adding components</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAllowImporting" datatype="html">
+        <source>Allow importing components</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="settingsRichContent" datatype="html">
+        <source>Allow pasting of rich content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="warningRichContent" datatype="html">
+        <source>
+                            Allowing rich content to be pasted may result in unpredictable styling of
+                            published :syllabi:.
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerNotificationSettings" datatype="html">
+        <source>Notification settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionNotificationSettings" datatype="html">
+        <source>Send email reminders to users who have not completed their syllabus:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification14Before" datatype="html">
+        <source>14 days before due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification7Before" datatype="html">
+        <source>7 days before due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification3Before" datatype="html">
+        <source>3 days before due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationOnDate" datatype="html">
+        <source>On due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification14After" datatype="html">
+        <source>14 days after due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification7After" datatype="html">
+        <source>7 days after due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notification3After" datatype="html">
+        <source>3 days after due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderReplyTo" datatype="html">
+        <source>Reply to address</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerAccessSettings" datatype="html">
+        <source>Access settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accessNoLogin" datatype="html">
+        <source>Allow users who are not logged in to access syllabi.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accessMyCourses" datatype="html">
+        <source>Allow students to access their My Courses page.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accessMaterialList" datatype="html">
+        <source>Allow students to access their Material List page.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableSyllabusLibrary" datatype="html">
+        <source>Enable Syllabus Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableStudents" datatype="html">
+        <source>Students</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableFaculty" datatype="html">
+        <source>&gt;Faculty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableOther" datatype="html">
+        <source>&gt;Other users</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionOtherUsers" datatype="html">
+        <source>(any user who is not a student, faculty member, or an administrator)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableGeneralPublic" datatype="html">
+        <source>General public</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="settingsGeneralPublic" datatype="html">
+        <source>(unauthenticated users)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerSystemSettings" datatype="html">
+        <source>System settings</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="PlaceholderGACode" datatype="html">
+        <source>Google Analytics code</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderTimeZone" datatype="html">
+        <source>Timezone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="authenticateEmail" datatype="html">
+        <source>
+                            Email / Password
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="authenticateDemo" datatype="html">
+        <source>
+                            Demo
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="SSO" datatype="html">
+        <source>
+                            SSO
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="primaryAuthentication" datatype="html">
+        <source>Authentication method</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerRestore" datatype="html">
+        <source>Restore from production</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sandboxRestore" datatype="html">
+        <source>
+                Restore this sandbox site from the current production site.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sandboxRestoreReplaceData" datatype="html">
+        <source>All current data on this site will be replaced with data from the production site.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sandboxRestoreIntegrations  " datatype="html">
+        <source>All production data-hub integrations will be disabled on the sandbox site.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sandboxRestoreUnavailable" datatype="html">
+        <source>This sandbox site may be unavailable for several minutes while this process is taking place.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonRestoreSite" datatype="html">
+        <source>
+                Restore site
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerUploadFile" datatype="html">
+        <source>Upload file for import</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadTypeCourseRoles" datatype="html">
+        <source>:Course: Roles</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadTypeSectionRoles" datatype="html">
+        <source>:Section: Roles</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadType" datatype="html">
+        <source>Upload type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorTryAgain" datatype="html">
+        <source>
+                Please try again, or contact support if the issue continues.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataRecurringConnection" datatype="html">
+        <source>Setup recurring connection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataConnectionType" datatype="html">
+        <source>Connection type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="manualUpload" datatype="html">
+        <source>Manual upload</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="recurringConnection" datatype="html">
+        <source>Set up recurring connection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pageTitleDataHubMapper" datatype="html">
+        <source>Data Hub Mapper</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="materialListNoCourses" datatype="html">
+        <source>No :courses: found for this :term:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noItemsMatch" datatype="html">
+        <source>No items match the selected criteria.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="webLink" datatype="html">
+        <source>Web link</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="pdfLink" datatype="html">
+        <source>PDF link</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderReportsObjective" datatype="html">
+        <source>Learning objective</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderCourseNumber" datatype="html">
+        <source>:Course: number</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsUpdateCriteria" datatype="html">
+        <source>Update the above criteria to search for content.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderSelectContent" datatype="html">
+        <source>Select content to view</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsNoResults" datatype="html">
+        <source>There are no results with the selected criteria.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsNoVisibleComponents" datatype="html">
+        <source>
+        This document does not currently have any visible components
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonGenerate" datatype="html">
+        <source>
+                Generate
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsAttributes" datatype="html">
+        <source>Include attributes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonGenerateCsv" datatype="html">
+        <source>
+            Generate CSV
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportInProgress" datatype="html">
+        <source>
+            Your report is being generated, please use the list above to monitor its progress and download the file when complete.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderComponents" datatype="html">
+        <source>Components</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importNoComponentSelected" datatype="html">
+        <source>At least one component is required</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsLink" datatype="html">
+        <source>
+                        Component link
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="componentNoContent" datatype="html">
+        <source>
+              No content exists for this component.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="minWordCount" datatype="html">
+        <source>Minimum word count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="maxWordCount" datatype="html">
+        <source>Maximum word count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importAdvanced" datatype="html">
+        <source>
+            Advanced (select content to import)
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importFinalize" datatype="html">
+        <source>
+            Finalize
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importNoImportableContent" datatype="html">
+        <source>The source document does not have any importable content. Click here to go back and select a
+                different item.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importErrorMapping" datatype="html">
+        <source>At least one item below must be mapped for import.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importSourceContent" datatype="html">
+        <source>Source content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="e78c0d60ac39787f62c9159646fe0b3c1ed55a1d" datatype="html">
+        <source>Type:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importTargetContent" datatype="html">
+        <source>Target content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importNoContent" datatype="html">
+        <source>
+    
+    The source content is empty
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importNoPlace" datatype="html">
+        <source>
+    
+    There is no suitable place for this content
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="doNotImport" datatype="html">
+        <source>
+                Do not import
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addOrganization" datatype="html">
+        <source>
+            Add :Organization:
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="showInactive" datatype="html">
+        <source>
+        Include inactive
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorPlaceholderRequired" datatype="html">
+        <source>is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorTopLevelName" datatype="html">
+        <source>There is already a top-level :organization: with this name.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorTopLevelOrg" datatype="html">
+        <source>There may only be one top level organization.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerCourseOwnership" datatype="html">
+        <source>
+        :Course: Ownership
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorGeneral" datatype="html">
+        <source>An error occurred, please try again or contact support.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="amazonError" datatype="html">
+        <source>Book search service is currently unavailable, please try again later.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerImportTracker" datatype="html">
+        <source>Import tracker</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importTypeCourseRole" datatype="html">
+        <source>:Course: roles</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importTypeSectionRole" datatype="html">
+        <source>:Section: roles</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataRecurringImports" datatype="html">
+        <source>
+                 recurring imports
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataCreated" datatype="html">
+        <source> Created </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataImportName" datatype="html">
+        <source> Import name </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataType" datatype="html">
+        <source> Type </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadTypeManual" datatype="html">
+        <source>Manual</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="uploadTypeRecurring" datatype="html">
+        <source>Recurring</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="datahubMap" datatype="html">
+        <source>
+                Map
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="datahubDownloadErrors" datatype="html">
+        <source>Download errors</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="datahubNoErros" datatype="html">
+        <source>no errors</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonNext" datatype="html">
+        <source>
+        Next
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonBack" datatype="html">
+        <source>
+        Go back
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonDataMapDelete" datatype="html">
+        <source>
+            Confirm cancellation of of this import.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dedup" datatype="html">
+        <source>
+                            Dedup
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noColumns" datatype="html">
+        <source>No columns found</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerImportConnection" datatype="html">
+        <source>Import connection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="authMethod" datatype="html">
+        <source>auth method</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="basePath" datatype="html">
+        <source>base path</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="lastProcessed" datatype="html">
+        <source>last processed</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="interval" datatype="html">
+        <source>interval</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="importIsActive" datatype="html">
+        <source>is active</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerRecurringImport" datatype="html">
+        <source>Recurring imports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fieldDelimiter" datatype="html">
+        <source>field delimiter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="delimiterComma" datatype="html">
+        <source>comma</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="delimiterPipe" datatype="html">
+        <source>pipe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ignoreErrors" datatype="html">
+        <source>ignore errors</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderConnectionName" datatype="html">
+        <source>Connection name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="connectionTypeDomain" datatype="html">
+        <source>:connectionType: domain</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorConnectionTypeDomain" datatype="html">
+        <source>:connectionType: domain is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderSectionSisID" datatype="html">
+        <source>Section SIS ID field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderSectionLmsId" datatype="html">
+        <source>Section LMS ID field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorMissingId" datatype="html">
+        <source>
+                Either the SIS ID or the :connectionType: ID field must be populated.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAccountId" datatype="html">
+        <source>Account SIS ID field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderAccountLmsId" datatype="html">
+        <source>Account LMS ID field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataRecurringConnectionHeader" datatype="html">
+        <source>Recurring connections</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataForceImport" datatype="html">
+        <source>
+        Force import check
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataLastChecked" datatype="html">
+        <source>last checked</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataCreatingKey" datatype="html">
+        <source>Creating new key</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataKeyCreated" datatype="html">
+        <source>LTI Key created</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerLtiKey" datatype="html">
+        <source>LTI Key</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="keyCopied" datatype="html">
+        <source>
+            Copied LTI Key to clipboard.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataLtiSecret" datatype="html">
+        <source>LTI Secret</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="secretMessage" datatype="html">
+        <source>
+                Please record this secret, this is the only time you will have access to it.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="secretCopied" datatype="html">
+        <source>
+            Copied LTI Secret to clipboard.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorOccurred" datatype="html">
+        <source>An error occurred</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorLti" datatype="html">
+        <source>An error occurred while attempting to create the LTI key. Please try again or contact support.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonGenerateKey" datatype="html">
+        <source>
+    Generate new key
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderDeleteKey" datatype="html">
+        <source>Delete key</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorNameLength" datatype="html">
+        <source>Name may not be longer than 40 characters</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorNameInUse" datatype="html">
+        <source>This name is in use by another :subject:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorNameInactive" datatype="html">
+        <source>This name is in use by an inactive :subject:, please reactivate.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="subjectParent" datatype="html">
+        <source>Parent organization</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addSubject" datatype="html">
+        <source>
+    Add :Subject:
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="onlyOrphans" datatype="html">
+        <source>Only show orphans</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipEdit" datatype="html">
+        <source>Edit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="viewCourses" datatype="html">
+        <source>
+                View :Courses:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorTermName" datatype="html">
+        <source>This name is in use by another :term:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderStartDate" datatype="html">
+        <source>Start date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorStartDate" datatype="html">
+        <source>Start date is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderEndDate" datatype="html">
+        <source>End date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorEndDate" datatype="html">
+        <source>End date is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderDueDate" datatype="html">
+        <source>:syllabus: due date</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderCopyTemplate" datatype="html">
+        <source>Copy template from</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderCopCourses" datatype="html">
+        <source>Copy :courses: from</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderSections" datatype="html">
+        <source>
+                Copy :sections:
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addTerm" datatype="html">
+        <source>
+    Add :Term:
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="addCourse" datatype="html">
+        <source>
+    Add :Course:
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseIncludeChildren" datatype="html">
+        <source>Include Children</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="coursesFilter" datatype="html">
+        <source>Please choose a filter to search for :Courses:.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="searchNoResults" datatype="html">
+        <source>No results found.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorCourseNumber" datatype="html">
+        <source>:Course: number is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorCourseNumberLength" datatype="html">
+        <source>Course number may not be longer than 40 characters</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderTitle" datatype="html">
+        <source>Title</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorCourseTitle" datatype="html">
+        <source>Title is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="unassignedCourses" datatype="html">
+        <source>Unassigned :Courses:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonReassign" datatype="html">
+        <source>
+                            Reassign
+                        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="archived" datatype="html">
+        <source>
+                                 archived
+                            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="tooltipArchivedCourses" datatype="html">
+        <source>Archived :courses: must be individually assigned</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="formUnassigned" datatype="html">
+        <source>Please use the above form to search for unassigned :courses:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="unassignNoResults" datatype="html">
+        <source>No unassigned :courses: meet the selected criteria</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerAssignedCourses" datatype="html">
+        <source>Assigned :courses:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="orgNoCourses" datatype="html">
+        <source>:organization_name: does not have any assigned :courses:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="assignedNoResults" datatype="html">
+        <source>No assigned :courses: meet the selected criteria</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorSectionName" datatype="html">
+        <source>This name is in use by another :section:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonAddSection" datatype="html">
+        <source>
+        Add :Section:
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sectionsCheckboxActive" datatype="html">
+        <source>
+        Show active
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="inactiveParents" datatype="html">
+        <source>
+    	Has inactive parents:
+	</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerSetPassword" datatype="html">
+        <source>Set password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderNewPassword" datatype="html">
+        <source>New password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorPasswordRequired" datatype="html">
+        <source>
+            Password is a required field
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorPasswordLength" datatype="html">
+        <source>
+            Password must be at least 6 characters
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorPasswordMatch" datatype="html">
+        <source>
+            Password must be identical
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="passwordUpdated" datatype="html">
+        <source>Password has been updated.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerUpdatePassword" datatype="html">
+        <source>Update your password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderCurrentPassword" datatype="html">
+        <source>Current password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorCurrentPassword" datatype="html">
+        <source>
+            Current password is a required field
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="updatePasswordSuccess" datatype="html">
+        <source>Your password has been updated.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsFirstName" datatype="html">
+        <source>First name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountErrorFirstName" datatype="html">
+        <source>First name is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsLastName" datatype="html">
+        <source>Last name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountErrorLastName" datatype="html">
+        <source>Last name is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsPrefix" datatype="html">
+        <source>Prefix</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsSuffix" datatype="html">
+        <source>Suffix</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>Email</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonUpdatePassword" datatype="html">
+        <source>
+                        Update password
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonEmailUpdatePassword" datatype="html">
+        <source>
+                        Email user to update password
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonCreatePassword" datatype="html">
+        <source>
+                        Create password
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonEmailCreatePassword" datatype="html">
+        <source>
+                        Email user to create password
+                    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsRegistrationSent" datatype="html">
+        <source>Registration email sent on</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsHeadshot" datatype="html">
+        <source>Upload headshot</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsHeadshotRemove" datatype="html">
+        <source>remove</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsSaveNew" datatype="html">
+        <source>
+                Save and new
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsAdd" datatype="html">
+        <source>
+    Add :Account:
+</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="oneUnregistered" datatype="html">
+        <source>There is currently 1 user who has not yet registered their Simple Syllabus account. Click the button below to send a registration email to all unregistered users.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="sendRegistration" datatype="html">
+        <source>
+        Send registration
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="multipleUnregistered" datatype="html">
+        <source>There are currently :unregisteredAccounts: users who have not yet registered their Simple Syllabus account. Click the button below to send a registration email to all unregistered users.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountsSendRegistration" datatype="html">
+        <source>
+        Send registrations
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="searchChooseFilter" datatype="html">
+        <source>Please choose a filter to search for accounts.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginResetPassword" datatype="html">
+        <source>Reset your Simple Syllabus password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginRegister" datatype="html">
+        <source>Register your Simple Syllabus account</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="signIn" datatype="html">
+        <source>Sign in to Simple Syllabus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginSSO" datatype="html">
+        <source>Login using your institution credentials</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginSimpleCredentials" datatype="html">
+        <source>
+            Click here to login with your Simple Syllabus email and password.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginNoPassword" datatype="html">
+        <source>
+                Don't have a password?
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginClickToRegister" datatype="html">
+        <source>
+                Click here to register.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorLoginUnsuccessful" datatype="html">
+        <source>Invalid email or password, please try again.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorRegistrationInUseEmail" datatype="html">
+        <source>
+            This email address could not be found, or it is already registered. You may want to try to reset your password from the Login page, or contact support.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonReset" datatype="html">
+        <source>
+            Reset
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonSignIn" datatype="html">
+        <source>Sign in</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonRegister" datatype="html">
+        <source>
+            Register
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="resetHeader" datatype="html">
+        <source>Update your Simple Syllabus password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorInvalidPasswordResetLink" datatype="html">
+        <source>
+            This reset password link is invalid or expired, please go to the login page and reset your password to
+            receive a new link.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderPassword" datatype="html">
+        <source>Password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderReenterPassword" datatype="html">
+        <source>Re-enter Password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="backToLogin" datatype="html">
+        <source>Click here to go to the login page.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="registrationEnterPassword" datatype="html">
+        <source>Complete your registration by entering your Simple Syllabus password</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorInvalidRegistrationLink" datatype="html">
+        <source>
+            This registration link is invalid or expired, please go to the login page to register and have another link
+            emailed to you.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="registrationComplete" datatype="html">
+        <source>
+            Registration complete.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noWritable" datatype="html">
+        <source>no writable components</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsErrorSelectComponent" datatype="html">
+        <source>Please select at least one component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsFilters" datatype="html">
+        <source>Filters</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorAmbiguousComponents" datatype="html">
+        <source>
+                One or more components are editable at a lower level.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="buttonCollectPdfs" datatype="html">
+        <source>
+            Collect PDFs
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerSyllabusStats" datatype="html">
+        <source>Syllabus Stats</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerEvidenceReports" datatype="html">
+        <source>Evidence Reports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusCollection" datatype="html">
+        <source>Syllabus collection</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionSyllabusCollection" datatype="html">
+        <source>The syllabus collection report is used to collect syllabi samples from across the institution. Use
+                filters to narrow down the documents retrieved or create a single comprehensive collection. Report is
+                exportable as a .csv with links or a compressed folder with individual PDF syllabi.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="learningObjectiveUsage" datatype="html">
+        <source>Learning objective usage</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionLearningObjectiveUsage" datatype="html">
+        <source>The learning objective usage report is used to identify all courses that include a particular learning
+                objective. Use filters to narrow down results. Report is exportable to a .csv format.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuContentComparison" datatype="html">
+        <source>Content comparison</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionContentComparison" datatype="html">
+        <source>The content comparison report is used to compare syllabi across campus. Use
+                    filters to narrow results.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="contentExport" datatype="html">
+        <source>Content export</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionContentExport" datatype="html">
+        <source>The content export report is used to export specific components of syllabi across campus. Use
+                    filters to narrow results.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="headerContinuousImporvement" datatype="html">
+        <source>Continuous improvement reports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="contentQuality" datatype="html">
+        <source>Content quality: length</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionContentQuality" datatype="html">
+        <source>The "Content quality: length" report is used to gather word counts of syllabus components. Use
+                    filters to narrow results.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuStatusBreakdown" datatype="html">
+        <source>Status breakdown</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuSyllabusCompletion" datatype="html">
+        <source>Syllabus completion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuSyllabusStats" datatype="html">
+        <source>Syllabus stats</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuEvidenceReports" datatype="html">
+        <source>Evidence reports</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsMenuContinuousImprovement" datatype="html">
+        <source>Continuous improvement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsDownloadNotice" datatype="html">
+        <source>
+        It may take several minutes for a report to be ready for download.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="linkReadyDownload" datatype="html">
+        <source>Ready for download</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsShowMore" datatype="html">
+        <source>Show more...</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsShowLess" datatype="html">
+        <source>Show less...</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportsCOmingSoon" datatype="html">
+        <source>
+    	 This report is coming soon.
+	</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorIE11" datatype="html">
+        <source>
+            This feature is not supported by IE11. If possible, please use Chrome, Firefox, or Edge.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="chartNoResults" datatype="html">
+        <source>
+            No relevant data exists, please select different filters to generate this chart.
+        </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderStatus" datatype="html">
+        <source>Status</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountAddRoles" datatype="html">
+        <source>Add Roles</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="placeholderRole" datatype="html">
+        <source>Role</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorAccountAlreadyAdded" datatype="html">
+        <source>Account has already been added.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="noRoles" datatype="html">
+        <source>No roles assigned</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorAlreadyAdded" datatype="html">
+        <source>Entity has already been added.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="viewDashboard" datatype="html">
+        <source>View your Simple dashboard</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ltiViewSyllabus" datatype="html">
+        <source>View the finished Syllabus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ltiErrorGeneral" datatype="html">
+        <source>
+        Simple Syllabus or your LMS are not configured properly. Please contract your LMS or Simple Syllabus administrator.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ltiErrorUknown" datatype="html">
+        <source>
+        An unknown error occurred. Please contract your LMS or Simple Syllabus administrator.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ltiErrorAccount" datatype="html">
+        <source>
+        You do not currently have an associated account with Simple Syllabus. Please contract your LMS or Simple Syllabus administrator.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ltiErrorCourse" datatype="html">
+        <source>
+        This course is not currently setup with Simple Syllabus.  Please contact your LMS or Simple Syllabus administrator.
+    </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationPendingApproval" datatype="html">
+        <source>:Syllabus: pending approval</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionPendingApproval" datatype="html">
+        <source>
+                This notification is sent to an approver when a :syllabus:
+                or :course master: is awaiting their approval.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationRejected" datatype="html">
+        <source>:Syllabus: rejected</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionRejected" datatype="html">
+        <source>
+                This notification is sent to editors when their :syllabus:
+                or :course master: has been rejected.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationApproved" datatype="html">
+        <source>:Syllabus: approved</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionApproved" datatype="html">
+        <source>
+                This notification is sent to instructors when their :syllabus:
+                has been approved.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationUpdated" datatype="html">
+        <source>:Syllabus: updated</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionUpdated" datatype="html">
+        <source>
+                This notification is sent to anyone watching a :syllabus:
+                once it has been updated.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationUpcomingDeadline" datatype="html">
+        <source>:Syllabus: upcoming deadline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionUpcomingDeadline" datatype="html">
+        <source>
+                This notification is sent to instructors with incomplete :syllabi:
+                when they approach the deadline.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationImminent" datatype="html">
+        <source>:Syllabus: imminent deadline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionImminent" datatype="html">
+        <source>
+                This notification is sent to instructors with incomplete :syllabi:
+                on the day of the deadline.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationPastDeadline" datatype="html">
+        <source>:Syllabus: past deadline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="descriptionPastDeadline" datatype="html">
+        <source>
+                This notification is sent to instructors with incomplete :syllabi:
+                when they have past the deadline.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationErrorSubject" datatype="html">
+        <source>
+                Subject is a required field.
+            </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notifyMultipleAddresses" datatype="html">
+        <source>Separate multiple addresses with commas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorContainValidEmail" datatype="html">
+        <source>Must contain a valid email addresses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="notificationDigestMode" datatype="html">
+        <source>Digest mode</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="digestSendTime" datatype="html">
+        <source>Digest send time</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="enableLink" datatype="html">
+        <source>Enable link</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="engagementTooltip" datatype="html">
+        <source>Student Engagement, number of students who have viewed the syllabus.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="savingNotice" datatype="html">
+        <source>saving...</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="savedNotice" datatype="html">
+        <source>saved</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountNameSystem" datatype="html">
+        <source>system</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountNameSimpleStaff" datatype="html">
+        <source>Simple staff</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionSubmit" datatype="html">
+        <source>submit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionApprove" datatype="html">
+        <source>approve</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionReject" datatype="html">
+        <source>reject</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionCancel" datatype="html">
+        <source>cancel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionAbstain" datatype="html">
+        <source>abstain</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionSubmitted" datatype="html">
+        <source>submitted</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionApproved" datatype="html">
+        <source>approved</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionRejected" datatype="html">
+        <source>rejected</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionCanceled" datatype="html">
+        <source>canceled</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docActionAbstained" datatype="html">
+        <source>abstained</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorDialogSH001Title" datatype="html">
+        <source>Unable to save :syllabus: content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorDialogSH001Description" datatype="html">
+        <source>We are unable to save content or submit this :syllabus: at this time. This is due to someone else having already submitted the :syllabus:. Please contact your Simple Syllabus administrator if you would like further assistance.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorDialogSH001Button" datatype="html">
+        <source>Reload</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docEngagementSummaryLegendViewed" datatype="html">
+        <source>Students who viewed the :syllabus:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docEngagementSummaryLegendNotViewed" datatype="html">
+        <source>Students who have not viewed the :syllabus:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docFollowEmailDialogTitle" datatype="html">
+        <source>Please update your email address</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docFollowEmailDialogMessage" datatype="html">
+        <source>Please update your email address so we may send you updates for :title:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docDeleteConfirmMessage" datatype="html">
+        <source>This :doc_family: will no longer be viewable by students or faculty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docOwnerTypeSelectorPlaceholder" datatype="html">
+        <source>Types</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentTypeSummaryContent" datatype="html">
+        <source>Used for rich text content</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentTypeSummaryMaterial" datatype="html">
+        <source>Used for textbooks and other materials for the course</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentTypeSummaryObjective" datatype="html">
+        <source>Used for learning objectives and outcomes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentTypeSummaryInstructor" datatype="html">
+        <source>Used for instructor information</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentUndeleteConfirmationTitle" datatype="html">
+        <source>Undelete component</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentUndeleteConfirmationMessage" datatype="html">
+        <source>Are you sure you wish to undelete ":name:"?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docComponentDeleteConfirmationMessage" datatype="html">
+        <source>Are you sure you wish to delete ":name:"?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docRowUndeleteConfirmationMessage" datatype="html">
+        <source>Are you sure you wish to undelete this item?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="docRowDeleteConfirmationMessage" datatype="html">
+        <source>Are you sure you wish to delete this item?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentInstructor" datatype="html">
+        <source>instructor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountUpdatePasswordMessage" datatype="html">
+        <source>Confirm to send an email with instructions for updating the password.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountRegisterConfirmMessage" datatype="html">
+        <source>Confirm to send a registration email to this user.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountUpdatePasswordSentTitle" datatype="html">
+        <source>Update email sent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountUpdatePasswordSentMessage" datatype="html">
+        <source>An email has been sent with instructions to update the password.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountRegistrationSentTitle" datatype="html">
+        <source>Registration email sent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="accountRegistrationSentMessage" datatype="html">
+        <source>A registration email has been sent to this user.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="SendRegistrationConfirmationMessage" datatype="html">
+        <source>Confirm to send a registration email to all unregistered users.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginPasswordResetTitle" datatype="html">
+        <source>Password reset</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginPasswordResetMessage" datatype="html">
+        <source>You should receive an email with instructions for resetting your password.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginRegisterTitle" datatype="html">
+        <source>Registration send</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="loginRegisterMessage" datatype="html">
+        <source>You should receive an email with instructions for completing your account registration.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportStatusPending" datatype="html">
+        <source>Pending</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStatAverageWordCount" datatype="html">
+        <source>Average word count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStatAverageComponentCount " datatype="html">
+        <source>Average component count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStatCount" datatype="html">
+        <source>Syllabus count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStatAverageViewCount " datatype="html">
+        <source>Average view count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="syllabusStatTotalViewCount " datatype="html">
+        <source>Total view count</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="reportStatusNotStarted" datatype="html">
+        <source>Not started</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorCourseNumberDuplicate" datatype="html">
+        <source>This :term: and :subject: already have a :course: with a :course: number of ":course_number:".</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerReassignTitle" datatype="html">
+        <source>Reassign :course:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerReassignSubjectTitle" datatype="html">
+        <source>Reassign :subject_name: from :organization_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerReassignSubjectMessage" datatype="html">
+        <source>:subject_name: is currently assigned to :current_organization_name:, do you wish to reassign to :new_organization_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerAssignSubjectTitle" datatype="html">
+        <source>Assign :subject_name: to :organization_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerAssignSubjectMessage" datatype="html">
+        <source>This will assign all :subject_name: :courses: of current and future :terms: to :organization_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerRemoveSubjectTitle" datatype="html">
+        <source>Remove :subject_name: from :organization_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="courseManagerRemoveSubjectMessage" datatype="html">
+        <source>Are you sure you wish to remove :subject_name: from :organization_name:? This will remove all :subject_name: :courses: of current and future :terms: from :organization_name:.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHubImportCancelConfirmationTitle" datatype="html">
+        <source>Confirm import cancelation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHubImportCancelConfirmationMessage" datatype="html">
+        <source>Are you sure you wish to delete the import of ":import_name:"?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHubImportCancelConfirmationNotice" datatype="html">
+        <source>Deleted :import_name:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHubLtiDeleteKeyConfirmationTitle" datatype="html">
+        <source>Delete LTI key</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="dataHubLtiDeleteKeyConfirmationMessage" datatype="html">
+        <source>Confirm to permanently delete this LTI key (this may not be undone).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentLookup" datatype="html">
+        <source>lookup</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentRole" datatype="html">
+        <source>role</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentNumber" datatype="html">
+        <source>number</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentEmail" datatype="html">
+        <source>email</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentFirstName" datatype="html">
+        <source>first name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentLastName" datatype="html">
+        <source>last name</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentPrefix" datatype="html">
+        <source>prefix</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentSuffix" datatype="html">
+        <source>suffix</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="fragmentTitle" datatype="html">
+        <source>title</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="deleted" datatype="html">
+        <source>Deleted :fileName:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorMessageFileTooLarge" datatype="html">
+        <source>File is too large</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="errorOrganizationNameDuplicate" datatype="html">
+        <source>:parent_name: already has an :organization: with this name.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="systemSettingsRestoreConfirmationTitle" datatype="html">
+        <source>Restore this site from its production site?</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganizationLevelPlaceholder" datatype="html">
+        <source>Organization level :level:</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganizationLevelPluralPlaceholder" datatype="html">
+        <source>Organization level :level: plural</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganizationLevelError" datatype="html">
+        <source>Organization level :level: is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="terminologyOrganizationLevelPluralError" datatype="html">
+        <source>Organization level :level: plural is a required field</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorVideoFileSizeError" datatype="html">
+        <source>Video is too large, video files may not exceed :size:.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorImageFileSizeError" datatype="html">
+        <source>Image is too large, image files may not exceed :size:.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorBoldStyle" datatype="html">
+        <source>Bold</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorItalicStyle" datatype="html">
+        <source>Italic</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorUnderlineStyle" datatype="html">
+        <source>Underline</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorAddBlock" datatype="html">
+        <source>Add block</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorRemoveBlock" datatype="html">
+        <source>Remove block</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="editorBlockRemoveWarning" datatype="html">
+        <source>This content is populated from other campus systems. Removing will prevent auto-updating.</source>
+        <target></target>
+      </trans-unit></body>
+  </file>
+</xliff>
