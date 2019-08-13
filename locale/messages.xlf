@@ -849,6 +849,10 @@
           <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-name.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
@@ -1065,6 +1069,10 @@
           <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-body-sliders.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
@@ -1108,24 +1116,6 @@
           <context context-type="linenumber">7</context>
         </context-group>
         <note priority="1" from="description">Header when editing a field</note>
-      </trans-unit><trans-unit id="fieldDisplayName" datatype="html">
-        <source>
-            display name
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-        <note priority="1" from="description">When a user is creating or editing a field, gives them the option to show the name of the field on the syllabus</note>
-      </trans-unit><trans-unit id="87a9e0f6ceb1444cab6185424f933a376357a91c" datatype="html">
-        <source>
-            Required
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
-          <context context-type="linenumber">82</context>
-        </context-group>
-        <note priority="1" from="description">Allows user to check a box that will make the field required on all syllabi@required</note>
       </trans-unit><trans-unit id="createComponent" datatype="html">
         <source>Create new component</source>
         <context-group purpose="location">
@@ -1229,6 +1219,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-row/components/heading-cell-image-dialog.component.html</context>
           <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-uploader-dialog.component.html</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">Where user can upload files</note>
       </trans-unit><trans-unit id="uploadUrl" datatype="html">
@@ -1368,14 +1362,18 @@
           <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">Explains to user what logic type &apos;any&apos; means</note>
-      </trans-unit><trans-unit id="logicTypeAll" datatype="html">
+      </trans-unit><trans-unit id="all" datatype="html">
         <source>All</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading/components/heading-condition-dialog.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
-        <note priority="1" from="description">Allows user to select logic type of &apos;all&apos;</note>
-      </trans-unit><trans-unit id="all" datatype="html">
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-import-tracker.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">All (e.g. &apos;import all&apos;)</note>
+      </trans-unit><trans-unit id="allConditionsMatch" datatype="html">
         <source>(all conditions must match)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading/components/heading-condition-dialog.component.html</context>
@@ -1410,6 +1408,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-summary.component.html</context>
           <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/chart/syllabus-status-organization-chart.component.html</context>
@@ -2117,7 +2119,11 @@
           <context context-type="sourcefile">app/legacy/pages/syllabus-view.page.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <note priority="1" from="description">Notice that syllabus will be available shortly, currently being processed</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/doc/doc-full-page/components/doc-view-notice.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Displays when syllabus is not yet available because it is currently processing</note>
       </trans-unit><trans-unit id="syllabusPendingContributors" datatype="html">
         <source>
     This :syllabus: is completed, but is awaiting content from other contributors. Please check back later.
@@ -2316,16 +2322,6 @@
           <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">Displays when a user tries to access a syllabus that is not available</note>
-      </trans-unit><trans-unit id="unavailableProcessing" datatype="html">
-        <source>
-        The requested :syllabus: is currently being processed and will be available momentarily. If you
-        continue to receive this message please contact support.
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/doc-full-page/components/doc-view-notice.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-        <note priority="1" from="description">Displays when syllabus is not yet available, but will be shortly</note>
       </trans-unit><trans-unit id="altViewSyllabus" datatype="html">
         <source>View syllabus</source>
         <context-group purpose="location">
@@ -2635,13 +2631,6 @@
           <context context-type="linenumber">47</context>
         </context-group>
         <note priority="1" from="description">Status when a syllabus has been submitted but is awaiting approval</note>
-      </trans-unit><trans-unit id="a7c328c4773db932ff14a1954e15e43dca58e7b7" datatype="html">
-        <source>Completed</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-        <note priority="1" from="description">Status when a syllabus has been completed</note>
       </trans-unit><trans-unit id="placeholderStatuses" datatype="html">
         <source>Statuses</source>
         <context-group purpose="location">
@@ -3395,15 +3384,6 @@
           <context context-type="linenumber">60</context>
         </context-group>
         <note priority="1" from="description">Error message</note>
-      </trans-unit><trans-unit id="buttonUpload" datatype="html">
-        <source>
-            Upload
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-uploader-dialog.component.html</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-        <note priority="1" from="description">Button in data hub that user clicks to upload their file</note>
       </trans-unit><trans-unit id="dataRecurringConnection" datatype="html">
         <source>Setup recurring connection</source>
         <context-group purpose="location">
@@ -3862,13 +3842,6 @@
           <context context-type="linenumber">2</context>
         </context-group>
         <note priority="1" from="description">Header in data hub for page where imports are tracked</note>
-      </trans-unit><trans-unit id="dfc3c34e182ea73c5d784ff7c8135f087992dac1" datatype="html">
-        <source>All</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-import-tracker.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">Option upload type dropdown, allows user to view all import types@all</note>
       </trans-unit><trans-unit id="importTypeCourseRole" datatype="html">
         <source>:Course: roles</source>
         <context-group purpose="location">
@@ -4418,7 +4391,7 @@
           <context context-type="linenumber">27</context>
         </context-group>
         <note priority="1" from="description">In courses, prompts user to choose a filter to search for a course</note>
-      </trans-unit><trans-unit id="noResults " datatype="html">
+      </trans-unit><trans-unit id="searchNoResults " datatype="html">
         <source>No results found.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/course/course-list.component.html</context>
@@ -5798,7 +5771,7 @@
         <note priority="1" from="description">Error message button label for when the system is unable to save the syllabus content</note>
       </trans-unit>
       <trans-unit id="docEngagementSummaryLegendViewed" datatype="html">
-        <source>Students who viewed the <x id="INTERPOLATION" equiv-text="{{syllabus}}"/></source>
+        <source>Students who viewed the :syllabus:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-engagement/components/doc-engagement-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5810,7 +5783,7 @@
         <note priority="1" from="description">Chart legend for students who have viewed a syllabus</note>
       </trans-unit>
       <trans-unit id="docEngagementSummaryLegendNotViewed" datatype="html">
-        <source>Students who have not viewed the <x id="INTERPOLATION" equiv-text="{{syllabus}}"/></source>
+        <source>Students who have not viewed the :syllabus:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-engagement/components/doc-engagement-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5834,7 +5807,7 @@
         <note priority="1" from="description">Title of dialog to ask the user to update their email so they may &quot;follow&quot; the document</note>
       </trans-unit>
       <trans-unit id="docFollowEmailDialogMessage" datatype="html">
-        <source>Please update your email address so we may send you updates for <x id="INTERPOLATION" equiv-text="{{title}}"/></source>
+        <source>Please update your email address so we may send you updates for :title:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-full-page/components/doc-view-header.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5846,7 +5819,7 @@
         <note priority="1" from="description">Message body of dialog to ask the user to update their email so they may &quot;follow&quot; the document</note>
       </trans-unit>
       <trans-unit id="docDeleteConfirmMessage" datatype="html">
-        <source>This <x id="INTERPOLATION" equiv-text="{{doc_family}}"/> will no longer be viewable by students or faculty</source>
+        <source>This :doc_family: will no longer be viewable by students or faculty</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc/components/doc-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5902,7 +5875,7 @@
         <note priority="1" from="description">Title of a confirmation box confirming the user wants to undelete the component</note>
       </trans-unit>
       <trans-unit id="docComponentUndeleteConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to undelete &quot;<x id="INTERPOLATION" equiv-text="{{name}}"/>&quot;?</source>
+        <source>Are you sure you wish to undelete &quot;:name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/heading-component/components/heading-component-template-panel.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5910,7 +5883,7 @@
         <note priority="1" from="description">Message of a confirmation box confirming the user wants to undelete the component</note>
       </trans-unit>
       <trans-unit id="docComponentDeleteConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to delete &quot;<x id="INTERPOLATION" equiv-text="{{name}}"/>&quot;?</source>
+        <source>Are you sure you wish to delete &quot;:name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/heading-component/components/heading-component-template-panel.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6097,16 +6070,8 @@
         </context-group>
         <note priority="1" from="description">Status of a document that has not been started</note>
       </trans-unit>
-      <trans-unit id="reportStatusInProgress" datatype="html">
-        <source>In progress</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/legacy/components/chart/syllabus-status-chart.component.ts</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <note priority="1" from="description">Status of a document that is in progress</note>
-      </trans-unit>
       <trans-unit id="errorCourseNumberDuplicate" datatype="html">
-        <source>This :term: and :subject: already have a :course: with a :course: number of &quot;<x id="INTERPOLATION" equiv-text="{{course_number}}"/>&quot;.</source>
+        <source>This :term: and :subject: already have a :course: with a :course: number of &quot;:course_number:&quot;.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-edit.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6114,7 +6079,7 @@
         <note priority="1" from="description">Error message in courses, when course has the same number as another course of the same term and subject</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignTitle" datatype="html">
-        <source>Reassign course</source>
+        <source>Reassign :course:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6122,7 +6087,7 @@
         <note priority="1" from="description">Title of the popup for reassigning a course&apos; parent</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignSubjectTitle" datatype="html">
-        <source>Reassign <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> from <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/></source>
+        <source>Reassign :subject_name: from :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6130,7 +6095,7 @@
         <note priority="1" from="description">Title of the popup for reassigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignSubjectMessage" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{subject_name}}"/> is currently assigned to <x id="INTERPOLATION_1" equiv-text="{{current_organization_name}}"/>, do you wish to reassign to <x id="INTERPOLATION_2" equiv-text="{{new_organization_name}}"/></source>
+        <source>:subject_name: is currently assigned to :current_organization_name:, do you wish to reassign to :new_organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6138,7 +6103,7 @@
         <note priority="1" from="description">Message of the popup for reassigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerAssignSubjectTitle" datatype="html">
-        <source>Assign <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> to <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/></source>
+        <source>Assign :subject_name: to :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6146,7 +6111,7 @@
         <note priority="1" from="description">Title of the popup for assigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerAssignSubjectMessage" datatype="html">
-        <source>This will assign all <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> courses of current and future terms to <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/></source>
+        <source>This will assign all :subject_name: :courses: of current and future :terms: to :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6154,7 +6119,7 @@
         <note priority="1" from="description">Message of the popup for assigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerRemoveSubjectTitle" datatype="html">
-        <source>Remove <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> from <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/></source>
+        <source>Remove :subject_name: from :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6162,7 +6127,7 @@
         <note priority="1" from="description">Title of the popup for removing a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerRemoveSubjectMessage" datatype="html">
-        <source>Are you sure you wish to remove <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> from <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/>? This will remove all <x id="INTERPOLATION" equiv-text="{{subject_name}}"/> courses of current and future terms from <x id="INTERPOLATION_1" equiv-text="{{organization_name}}"/>.</source>
+        <source>Are you sure you wish to remove :subject_name: from :organization_name:? This will remove all :subject_name: :courses: of current and future :terms: from :organization_name:.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6178,7 +6143,7 @@
         <note priority="1" from="description">Title of the popup when confirming the user wants to cancel an import</note>
       </trans-unit>
       <trans-unit id="dataHubImportCancelConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to delete the import of &quot;<x id="INTERPOLATION" equiv-text="{{import_name}}"/>&quot;?</source>
+        <source>Are you sure you wish to delete the import of &quot;:import_name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-import-tracker.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6186,7 +6151,7 @@
         <note priority="1" from="description">Message of the popup when confirming the user wants to cancel an import</note>
       </trans-unit>
       <trans-unit id="dataHubImportCancelConfirmationNotice" datatype="html">
-        <source>Deleted <x id="INTERPOLATION" equiv-text="{{import_name}}"/></source>
+        <source>Deleted :import_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-import-tracker.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6273,8 +6238,16 @@
         </context-group>
         <note priority="1" from="description">Text fragment for &quot;suffix&quot;, the suffix of a person&apos; name.</note>
       </trans-unit>
+      <trans-unit id="fragmentTitle" datatype="html">
+        <source>title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-mapper.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Text fragment for &quot;title&quot;, the title of a person&apos; name.</note>
+      </trans-unit>
       <trans-unit id="deleted" datatype="html">
-        <source>Deleted <x id="INTERPOLATION" equiv-text="{{fileName}}"/></source>
+        <source>Deleted :fileName:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-mapper.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6290,7 +6263,7 @@
         <note priority="1" from="description">Error message when a file user is trying to upload is too large</note>
       </trans-unit>
       <trans-unit id="errorOrganizationNameDuplicate" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{parent_name}}"/> already has an :organization: with this name.</source>
+        <source>:parent_name: already has an :organization: with this name.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/organization/organization-edit.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6306,7 +6279,7 @@
         <note priority="1" from="description">Popup title to confirmation box when admin restores a sandbox site</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPlaceholder" datatype="html">
-        <source>Organization level <x id="INTERPOLATION" equiv-text="{{level}}"/></source>
+        <source>Organization level :level:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6314,7 +6287,7 @@
         <note priority="1" from="description">Input placeholder for a specific organization level, eg &quot;Organization level 1&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPluralPlaceholder" datatype="html">
-        <source>Organization level <x id="INTERPOLATION" equiv-text="{{level}}"/> plural</source>
+        <source>Organization level :level: plural</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6322,7 +6295,7 @@
         <note priority="1" from="description">Input placeholder for a specific, pluralized organization level, eg &quot;Organization level 1 plural&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelError" datatype="html">
-        <source>Organization level <x id="INTERPOLATION" equiv-text="{{level}}"/> is a required field</source>
+        <source>Organization level :level: is a required field</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6330,7 +6303,7 @@
         <note priority="1" from="description">Input error for a specific organization level, eg &quot;Organization level 1&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPluralError" datatype="html">
-        <source>Organization level <x id="INTERPOLATION" equiv-text="{{level}}"/> plural is a required field</source>
+        <source>Organization level :level: plural is a required field</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6338,7 +6311,7 @@
         <note priority="1" from="description">Input errror for a specific, pluralized organization level, eg &quot;Organization level 1 plural&quot;</note>
       </trans-unit>
       <trans-unit id="editorVideoFileSizeError" datatype="html">
-        <source>Video is too large, video files may not exceed <x id="INTERPOLATION" equiv-text="{{size}}"/>.</source>
+        <source>Video is too large, video files may not exceed :size:.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/services/froala.service.ts</context>
           <context context-type="linenumber">1</context>
@@ -6346,7 +6319,7 @@
         <note priority="1" from="description">Error message when user tries to upload a video that is too large.</note>
       </trans-unit>
       <trans-unit id="editorImageFileSizeError" datatype="html">
-        <source>Image is too large, image files may not exceed <x id="INTERPOLATION" equiv-text="{{size}}"/>.</source>
+        <source>Image is too large, image files may not exceed :size:.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/services/froala.service.ts</context>
           <context context-type="linenumber">1</context>
