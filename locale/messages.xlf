@@ -276,24 +276,11 @@
         <note priority="1" from="description">Warning header</note>
       </trans-unit><trans-unit id="warningDeactivateChildren" datatype="html">
         <source>
-        Inactivating this item will automatically inactivate its children:
-        <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
-            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION" equiv-text="{{ data.organizationCount }}"/> <x id="INTERPOLATION_1" equiv-text="{{ &apos;organization&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-            <x id="START_LIST_ITEM_1" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION" equiv-text="{{ data.organizationCount }}"/> <x id="INTERPOLATION_2" equiv-text="{{ &apos;organizations&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-
-            <x id="START_LIST_ITEM_2" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_3" equiv-text="{{ data.subjectCount }}"/> <x id="INTERPOLATION_4" equiv-text="{{ &apos;subject&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-            <x id="START_LIST_ITEM_3" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_3" equiv-text="{{ data.subjectCount }}"/> <x id="INTERPOLATION_5" equiv-text="{{ &apos;subjects&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-
-            <x id="START_LIST_ITEM_4" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_6" equiv-text="{{ data.courseCount }}"/> <x id="INTERPOLATION_7" equiv-text="{{ &apos;course&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-            <x id="START_LIST_ITEM_5" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_6" equiv-text="{{ data.courseCount }}"/> <x id="INTERPOLATION_8" equiv-text="{{ &apos;courses&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-
-            <x id="START_LIST_ITEM_6" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_9" equiv-text="{{ data.sectionCount }}"/> <x id="INTERPOLATION_10" equiv-text="{{ &apos;section&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-            <x id="START_LIST_ITEM_7" ctype="x-li" equiv-text="&lt;li&gt;"/><x id="INTERPOLATION_9" equiv-text="{{ data.sectionCount }}"/> <x id="INTERPOLATION_11" equiv-text="{{ &apos;sections&apos; | terminology }}"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
-        <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
-    </source>
+            Inactivating this item will automatically inactivate its children:
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/active-children-dialog.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">6</context>
         </context-group>
         <note priority="1" from="description">Displays when a user deactivates an item, warning that any children of the item will also be deactivated</note>
       </trans-unit><trans-unit id="buttonClose" datatype="html">
@@ -302,7 +289,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/active-children-dialog.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-import/components/doc-import-dialog.component.html</context>
@@ -525,13 +512,11 @@
         <note priority="1" from="description">Displays as the header for a list of students who have not viewed the syllabus</note>
       </trans-unit><trans-unit id="buttonEngagement" datatype="html">
         <source>
-                        Engagement
-                        <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>keyboard_arrow_down<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>
-                        <x id="START_TAG_MAT-ICON_1" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/>keyboard_arrow_up<x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>
-                    </source>
+                            Engagement
+                        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-engagement/components/doc-engagement-term-detail-dialog.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <note priority="1" from="description">Button that will show student engagement with syllabus when clicked</note>
       </trans-unit><trans-unit id="engagementNoEnrollment" datatype="html">
@@ -540,7 +525,7 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-engagement/components/doc-engagement-term-detail-dialog.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">69</context>
         </context-group>
         <note priority="1" from="description">Displays when a class has no students enrolled</note>
       </trans-unit><trans-unit id="engagementNoEngagement" datatype="html">
@@ -549,7 +534,7 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-engagement/components/doc-engagement-term-detail-dialog.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <note priority="1" from="description">Displays when a syllabus has had no student engagement</note>
       </trans-unit><trans-unit id="importContent" datatype="html">
@@ -633,12 +618,11 @@
         <note priority="1" from="description">Status update of document when it has been completed automatically</note>
       </trans-unit><trans-unit id="statusCourseMaster" datatype="html">
         <source>
-            This :docType: will be automatically generated once its <x id="INTERPOLATION" equiv-text="{{&apos;course master&apos; | terminology}}"/>
-            has been completed.
+            This :docType: will be automatically generated once its :course_master: has been completed.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">Status of document when it needs editing at the course level</note>
       </trans-unit><trans-unit id="statusRequiredComponents" datatype="html">
@@ -1272,7 +1256,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/theme-settings.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/terminology-settings.component.html</context>
@@ -1671,7 +1655,7 @@
         </context-group>
         <note priority="1" from="description">When editing a syllabus template, allows user to choose to hide a component on publish syllabi</note>
       </trans-unit><trans-unit id="componentVisibleTooltip" datatype="html">
-        <source>Determines whether or not this component will be displayed on published <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology}}"/>.</source>
+        <source>Determines whether or not this component will be displayed on published documents.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-body-sliders.component.html</context>
           <context context-type="linenumber">18</context>
@@ -1692,7 +1676,7 @@
         </context-group>
         <note priority="1" from="description">When editing a syllabus template, allows user to make a component private so only students enrolled in the class can view it</note>
       </trans-unit><trans-unit id="componentPublicTooltip" datatype="html">
-        <source>Manage privacy by limiting visibility of this component to just the instructor and students enrolled in the <x id="INTERPOLATION" equiv-text="{{&apos;section&apos; | terminology}}"/>.</source>
+        <source>Manage privacy by limiting visibility of this component to just the instructor and students enrolled in the section.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-body-sliders.component.html</context>
           <context context-type="linenumber">25</context>
@@ -2334,7 +2318,7 @@
         <note priority="1" from="description">Displays when a user tries to access a syllabus that is not available</note>
       </trans-unit><trans-unit id="unavailableProcessing" datatype="html">
         <source>
-        The requested <x id="INTERPOLATION" equiv-text="{{&apos;syllabus&apos; | terminology}}"/> is currently being processed and will be available momentarily. If you
+        The requested :syllabus: is currently being processed and will be available momentarily. If you
         continue to receive this message please contact support.
     </source>
         <context-group purpose="location">
@@ -2369,12 +2353,11 @@
         <note priority="1" from="description">In syllabus library, appears as a header before a list of the different levels of the organization, allowing user to filter their search</note>
       </trans-unit><trans-unit id="conditionalPhrase" datatype="html">
         <source>
-                This will appear if
-                <x id="START_TAG_APP-HEADING-CONDITION-PHRASE" ctype="x-app-heading-condition-phrase" equiv-text="&lt;app-heading-condition-phrase&gt;"/><x id="CLOSE_TAG_APP-HEADING-CONDITION-PHRASE" ctype="x-app-heading-condition-phrase" equiv-text="&lt;/app-heading-condition-phrase&gt;"/>
-            </source>
+                    This will appear if
+                </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-variation.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">When a component has conditional logic, explaining under what conditions the component will show</note>
       </trans-unit><trans-unit id="conditionalPhrasingAny" datatype="html">
@@ -2383,7 +2366,7 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-variation.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <note priority="1" from="description">When a component has conditional logic, appears before the conditions are listed</note>
       </trans-unit><trans-unit id="conditionalPhrasingAll" datatype="html">
@@ -2392,7 +2375,7 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-variation.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <note priority="1" from="description">When a component has conditional logic, appears before the conditions are listed</note>
       </trans-unit><trans-unit id="coursesOrgTooltip" datatype="html">
@@ -2735,7 +2718,7 @@
         </context-group>
         <note priority="1" from="description">Slider that, when toggled on, makes syllabi editable</note>
       </trans-unit><trans-unit id="tooltipSyllabusEditing" datatype="html">
-        <source>Turn on/off users’ ability to edit and submit <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology}}"/>.</source>
+        <source>Turn on/off users’ ability to edit and submit syllabi.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/entity/term/components/term-syllabus-controls.component.html</context>
           <context context-type="linenumber">14</context>
@@ -2751,7 +2734,7 @@
         </context-group>
         <note priority="1" from="description">Slider than, when toggled on, makes syllabi editable at the course level</note>
       </trans-unit><trans-unit id="tooltipCourseEditing" datatype="html">
-        <source>Turn on/off users’ ability to edit and submit :course masters:.</source>
+        <source>Turn on/off users’ ability to edit and submit course masters.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/entity/term/components/term-syllabus-controls.component.html</context>
           <context context-type="linenumber">23</context>
@@ -2766,8 +2749,8 @@
           <context context-type="linenumber">35</context>
         </context-group>
         <note priority="1" from="description">Slider that allows syllabi to be published to syllabus library when toggled on</note>
-      </trans-unit><trans-unit id="03e9a9d2c8b48c77084b6629dfa9ddfe6820a5b8" datatype="html">
-        <source>Publishes <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology}}"/> to the <x id="INTERPOLATION_1" equiv-text="{{&apos;syllabus&apos; | terminology}}"/> library once they have been submitted by instructors and approved (if applicable).</source>
+      </trans-unit><trans-unit id="9179d40168020d0fdb678e595e36fdb1ebae31db" datatype="html">
+        <source>Publishes syllabi to the syllabus library once they have been submitted by instructors and approved (if applicable).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/entity/term/components/term-syllabus-controls.component.html</context>
           <context context-type="linenumber">32</context>
@@ -2808,8 +2791,7 @@
         <note priority="1" from="description">In theme settings, explanation of where the custom &apos;My Courses&apos; link will appear</note>
       </trans-unit><trans-unit id="descriptionCustomMaterialList" datatype="html">
         <source>
-                    This link will appear as a button below the <x id="INTERPOLATION" equiv-text="{{&apos;term&apos; | terminology}}"/> selector on the
-                    &apos;Material List&apos; page.
+                    This link will appear as a button below the :term: selector on the &apos;Material List&apos; page.
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/theme-settings.component.html</context>
@@ -2820,7 +2802,7 @@
         <source>:Syllabus: style</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/theme-settings.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <note priority="1" from="description">In theme settings, header for area where admin can edit the syllabus style</note>
       </trans-unit><trans-unit id="noticeSyllabusStyle" datatype="html">
@@ -2829,14 +2811,14 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/theme-settings.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">Notice in theme settings letting admin know that any changes made in the syllabus style section will impact all syllabi for the current term</note>
       </trans-unit><trans-unit id="placeholderSyllabusStyle" datatype="html">
         <source>Syllabus style</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/theme-settings.component.html</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <note priority="1" from="description">Placeholder for text area where admin can enter syllabus style</note>
       </trans-unit><trans-unit id="terminologyAccount" datatype="html">
@@ -3430,20 +3412,7 @@
         </context-group>
         <note priority="1" from="description">In data hub, header above where user sets up recurring data connection</note>
       </trans-unit><trans-unit id="dataConnectionType" datatype="html">
-        <source>
-
-            <x id="START_TAG_MAT-OPTGROUP" ctype="x-mat-optgroup" equiv-text="&lt;mat-optgroup&gt;"/>
-                <x id="START_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/>Canvas<x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
-                <x id="START_TAG_MAT-OPTION_1" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/>Blackboard<x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
-                <x id="START_TAG_MAT-OPTION_2" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/>Brightspace<x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
-                <x id="START_TAG_MAT-OPTION_3" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/>Moodle<x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
-            <x id="CLOSE_TAG_MAT-OPTGROUP" ctype="x-mat-optgroup" equiv-text="&lt;/mat-optgroup&gt;"/>
-
-            <x id="START_TAG_MAT-OPTGROUP_1" ctype="x-mat-optgroup" equiv-text="&lt;mat-optgroup&gt;"/>
-                <x id="START_TAG_MAT-OPTION_4" ctype="x-mat-option" equiv-text="&lt;mat-option&gt;"/>SFTP file<x id="CLOSE_TAG_MAT-OPTION" ctype="x-mat-option" equiv-text="&lt;/mat-option&gt;"/>
-            <x id="CLOSE_TAG_MAT-OPTGROUP" ctype="x-mat-optgroup" equiv-text="&lt;/mat-optgroup&gt;"/>
-
-        </source>
+        <source>Connection type</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-connection-dialog.component.html</context>
           <context context-type="linenumber">6</context>
@@ -4333,7 +4302,7 @@
         </context-group>
         <note priority="1" from="description">On subjects page, checkbox that will show only subjects that do not have a parent</note>
       </trans-unit><trans-unit id="tooltipEdit" datatype="html">
-        <source>Edit <x id="INTERPOLATION" equiv-text="{{subject?.full_name}}"/></source>
+        <source>Edit</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/subject/subject-summary.component.html</context>
           <context context-type="linenumber">4</context>
@@ -5536,7 +5505,7 @@
         <note priority="1" from="description">Title for notification that goes out to an instructor when their syllabus is approved</note>
       </trans-unit><trans-unit id="descriptionApproved" datatype="html">
         <source>
-                This notification is sent to instructors when their <x id="INTERPOLATION" equiv-text="{{&apos;syllabus&apos; | terminology }}"/>
+                This notification is sent to instructors when their :syllabus:
                 has been approved.
             </source>
         <context-group purpose="location">
@@ -5553,7 +5522,7 @@
         <note priority="1" from="description">Notification sent out to students when a syllabus that they are following is updated</note>
       </trans-unit><trans-unit id="descriptionUpdated" datatype="html">
         <source>
-                This notification is sent to anyone watching a <x id="INTERPOLATION" equiv-text="{{&apos;syllabus&apos; | terminology }}"/>
+                This notification is sent to anyone watching a :syllabus:
                 once it has been updated.
             </source>
         <context-group purpose="location">
@@ -5570,7 +5539,7 @@
         <note priority="1" from="description">Notification that goes out when a submission deadline is approaching</note>
       </trans-unit><trans-unit id="descriptionUpcomingDeadline" datatype="html">
         <source>
-                This notification is sent to instructors with incomplete <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology }}"/>
+                This notification is sent to instructors with incomplete :syllabi:
                 when they approach the deadline.
             </source>
         <context-group purpose="location">
@@ -5587,7 +5556,7 @@
         <note priority="1" from="description">Title of notification that goes out on the day that a syllabus is due</note>
       </trans-unit><trans-unit id="descriptionImminent" datatype="html">
         <source>
-                This notification is sent to instructors with incomplete <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology }}"/>
+                This notification is sent to instructors with incomplete :syllabi:
                 on the day of the deadline.
             </source>
         <context-group purpose="location">
@@ -5604,7 +5573,7 @@
         <note priority="1" from="description">Notification that goes out when a syllbus due has passed</note>
       </trans-unit><trans-unit id="descriptionPastDeadline" datatype="html">
         <source>
-                This notification is sent to instructors with incomplete <x id="INTERPOLATION" equiv-text="{{&apos;syllabi&apos; | terminology }}"/>
+                This notification is sent to instructors with incomplete :syllabi:
                 when they have past the deadline.
             </source>
         <context-group purpose="location">
@@ -5681,7 +5650,7 @@
         </context-group>
         <note priority="1" from="description">Checkbox in settings where user can enable a custom hyperlink</note>
       </trans-unit><trans-unit id="engagementTooltip" datatype="html">
-        <source>Student Engagement, number of students who have viewed the <x id="INTERPOLATION" equiv-text="{{&apos;syllabus&apos; | terminology}}"/>.</source>
+        <source>Student Engagement, number of students who have viewed the syllabus.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-engagement/components/doc-engagement-summary.component.html</context>
           <context context-type="linenumber">10</context>
