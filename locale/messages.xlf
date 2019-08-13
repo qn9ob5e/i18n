@@ -16,13 +16,17 @@
           <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">support link@supportLink</note>
-      </trans-unit><trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+      </trans-unit><trans-unit id="pageTitlePrivacyPolicy" datatype="html">
         <source>Privacy Policy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
-        <note priority="1" from="description">privacy policy link@privacyPolicyLink</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/pages/privacy-policy.page.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">privacy policy link</note>
       </trans-unit><trans-unit id="5a682e199e01142a1a4cdb5b5868dadf691ab7c3" datatype="html">
         <source>© 2019 Simple Higher Ed</source>
         <context-group purpose="location">
@@ -423,14 +427,22 @@
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-creator-dialog.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
         <note priority="1" from="description">Content of the message</note>
-      </trans-unit><trans-unit id="noticeSyllabiList " datatype="html">
+      </trans-unit><trans-unit id="noticeSyllabiList" datatype="html">
         <source>
             A list of the relevant :syllabi: will appear after the email&apos;s content section.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-blast/components/doc-blast-dialog.component.html</context>
           <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
+          <context context-type="linenumber">32</context>
         </context-group>
         <note priority="1" from="description">Notice that a list of syllabi will appear after the content</note>
       </trans-unit><trans-unit id="replyTo" datatype="html">
@@ -2025,13 +2037,6 @@
           <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">Page not found error</note>
-      </trans-unit><trans-unit id="pageTitlePrivacyPolicy" datatype="html">
-        <source>Privacy Policy</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/privacy-policy.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Title of the privacy policy page</note>
       </trans-unit><trans-unit id="pageTitleMyCourses" datatype="html">
         <source>My :Courses:</source>
         <context-group purpose="location">
@@ -2588,7 +2593,7 @@
           <context context-type="linenumber">11</context>
         </context-group>
         <note priority="1" from="description">Header that appears before a list of syllabi that are awaiting approval</note>
-      </trans-unit><trans-unit id="buttonMaterialList " datatype="html">
+      </trans-unit><trans-unit id="buttonMaterialList" datatype="html">
         <source>
           View Material List
         </source>
@@ -2645,11 +2650,19 @@
           <context context-type="linenumber">31</context>
         </context-group>
         <note priority="1" from="description">Error that when user does not select a syllabus status</note>
-      </trans-unit><trans-unit id="reportsErrorType " datatype="html">
+      </trans-unit><trans-unit id="reportsErrorType" datatype="html">
         <source>At least one type is required</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
           <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/report/components/report-content-export.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <note priority="1" from="description">Error in reports when user does not select a syllabus type</note>
       </trans-unit><trans-unit id="trackNotPublished" datatype="html">
@@ -3293,7 +3306,7 @@
           <context context-type="linenumber">203</context>
         </context-group>
         <note priority="1" from="description">In system settings, placeholder for dropdown where admin selects primary login/authentication method</note>
-      </trans-unit><trans-unit id="headerRestore " datatype="html">
+      </trans-unit><trans-unit id="headerRestore" datatype="html">
         <source>Restore from production</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/system-settings.component.html</context>
@@ -3515,17 +3528,6 @@
           <context context-type="linenumber">66</context>
         </context-group>
         <note priority="1" from="description">Notice that appears in content comparison when user chooses a syllabus with no visible components</note>
-      </trans-unit><trans-unit id="reportsErrorType" datatype="html">
-        <source>At least one type is required</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/report/components/report-content-export.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-        <note priority="1" from="description">Error message that shows in reports when user does not select a syllabus type</note>
       </trans-unit><trans-unit id="buttonGenerate" datatype="html">
         <source>
                 Generate
@@ -3606,7 +3608,7 @@
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">Displays as an error message when no components have been selected</note>
-      </trans-unit><trans-unit id="reportsLink " datatype="html">
+      </trans-unit><trans-unit id="reportsLink" datatype="html">
         <source>
                         Component link
                     </source>
@@ -3693,7 +3695,7 @@
           <context context-type="linenumber">88</context>
         </context-group>
         <note priority="1" from="description">Prompts the user to select the type of component</note>
-      </trans-unit><trans-unit id="importTargetContent " datatype="html">
+      </trans-unit><trans-unit id="importTargetContent" datatype="html">
         <source>Target content</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-import/components/doc-import-map.component.html</context>
@@ -4154,7 +4156,7 @@
           <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">In data hub, header above button that allows user to copy LTI Key</note>
-      </trans-unit><trans-unit id="keyCopied " datatype="html">
+      </trans-unit><trans-unit id="keyCopied" datatype="html">
         <source>
             Copied LTI Key to clipboard.
         </source>
@@ -4391,11 +4393,19 @@
           <context context-type="linenumber">27</context>
         </context-group>
         <note priority="1" from="description">In courses, prompts user to choose a filter to search for a course</note>
-      </trans-unit><trans-unit id="searchNoResults " datatype="html">
+      </trans-unit><trans-unit id="searchNoResults" datatype="html">
         <source>No results found.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/course/course-list.component.html</context>
           <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/account/account-list.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
+          <context context-type="linenumber">120</context>
         </context-group>
         <note priority="1" from="description">Displays when no search has no results</note>
       </trans-unit><trans-unit id="errorCourseNumber" datatype="html">
@@ -4699,7 +4709,7 @@
           <context context-type="linenumber">7</context>
         </context-group>
         <note priority="1" from="description">In accounts, error message when user tries to create an account without inputting a first name</note>
-      </trans-unit><trans-unit id="accountsLastName " datatype="html">
+      </trans-unit><trans-unit id="accountsLastName" datatype="html">
         <source>Last name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/account/account-edit.component.html</context>
@@ -4856,17 +4866,6 @@
           <context context-type="linenumber">35</context>
         </context-group>
         <note priority="1" from="description">In account search, instructs user to apply a filter for their search</note>
-      </trans-unit><trans-unit id="searchNoResults" datatype="html">
-        <source>No results found.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/account/account-list.component.html</context>
-          <context context-type="linenumber">43</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
-          <context context-type="linenumber">120</context>
-        </context-group>
-        <note priority="1" from="description">Message that displays if search criteria returns no results</note>
       </trans-unit><trans-unit id="loginResetPassword" datatype="html">
         <source>Reset your Simple Syllabus password</source>
         <context-group purpose="location">
@@ -5459,7 +5458,7 @@
           <context context-type="linenumber">17</context>
         </context-group>
         <note priority="1" from="description">Title for the notification that goes out to an instructor when their syllabus is rejected</note>
-      </trans-unit><trans-unit id="descriptionRejected " datatype="html">
+      </trans-unit><trans-unit id="descriptionRejected" datatype="html">
         <source>
                 This notification is sent to editors when their :syllabus:
                 or :course master: has been rejected.
@@ -5563,22 +5562,6 @@
           <context context-type="linenumber">22</context>
         </context-group>
         <note priority="1" from="description">Error message that shows when user tries to edit a notification template without an email subject</note>
-      </trans-unit><trans-unit id="notificationsContent" datatype="html">
-        <source>Content</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-        <note priority="1" from="description">Refers to the conent of a notification that is sent out via email</note>
-      </trans-unit><trans-unit id="noticeSyllabiList" datatype="html">
-        <source>
-                A list of the relevant :syllabi: will appear after the email&apos;s content section.
-            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-        <note priority="1" from="description">When editing notification templates, this appears a warning message to alert the user that the list of syllabi will appear after the email content</note>
       </trans-unit><trans-unit id="notifyMultipleAddresses" datatype="html">
         <source>Separate multiple addresses with commas</source>
         <context-group purpose="location">
@@ -5615,7 +5598,7 @@
           <context context-type="linenumber">71</context>
         </context-group>
         <note priority="1" from="description">When editing notification digest mode, this is where the user will set the send time of the notification</note>
-      </trans-unit><trans-unit id="enableLink " datatype="html">
+      </trans-unit><trans-unit id="enableLink" datatype="html">
         <source>Enable link</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/site/components/custom-link-edit.component.html</context>
