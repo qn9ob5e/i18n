@@ -16,17 +16,18 @@
           <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">support link@supportLink</note>
-      </trans-unit><trans-unit id="pageTitlePrivacyPolicy" datatype="html">
+    </trans-unit>
+        <trans-unit id="pageTitlePrivacyPolicy" datatype="html">
         <source>Privacy Policy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/privacy-policy.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">privacy policy link</note>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/pages/privacy-policy.page.html</context>
+                <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">privacy policy link</note>
       </trans-unit><trans-unit id="5a682e199e01142a1a4cdb5b5868dadf691ab7c3" datatype="html">
         <source>© 2019 Simple Higher Ed</source>
         <context-group purpose="location">
@@ -66,41 +67,51 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">89</context>
+            <context context-type="linenumber">108</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/pages/reports.page.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
         <note priority="1" from="description">Main menu: Reports</note>
-      </trans-unit><trans-unit id="dashboard" datatype="html">
-        <source>Dashboard</source>
+    </trans-unit>
+        <trans-unit id="openItems" datatype="html">
+            <source>Open Items</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">33</context>
+            <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">103</context>
+            <context context-type="linenumber">113</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/report/report-list.component.html</context>
-          <context context-type="linenumber">131</context>
+            <context context-type="sourcefile">app/legacy/pages/open-items.page.html</context>
+            <context context-type="linenumber">2</context>
         </context-group>
-        <note priority="1" from="description">Link user can click to return to their site dashboard (homepage)</note>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/doc/syllabus/components/syllabus-dashboard.component.html
+                </context>
+                <context context-type="linenumber">5</context>
+            </context-group>
+            <note priority="1" from="description">Refers to task that are not yet completed</note>
       </trans-unit><trans-unit id="published" datatype="html">
         <source>Published</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">37</context>
+            <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">98</context>
+            <context context-type="linenumber">39</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">107</context>
+            <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+            <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+            <context context-type="linenumber">126</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/pages/published.page.html</context>
@@ -114,71 +125,96 @@
           <context context-type="sourcefile">app/legacy/components/term/term-edit.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <note priority="1" from="description">Refers to syllabi that are published</note>
-      </trans-unit><trans-unit id="templates" datatype="html">
-        <source>Templates</source>
+        <note priority="1" from="description">Refers to syllabi that have been published</note>
+    </trans-unit>
+        <trans-unit id="dashboard" datatype="html">
+            <source>Dashboard</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">45</context>
+            <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">115</context>
+            <context context-type="linenumber">122</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/syllabus/components/syllabus-organization-templates.component.html</context>
+            <context context-type="sourcefile">app/legacy/components/report/report-list.component.html</context>
+            <context context-type="linenumber">131</context>
+        </context-group>
+            <note priority="1" from="description">Link user can click to return to their site dashboard (homepage)
+            </note>
+        </trans-unit>
+        <trans-unit id="templates" datatype="html">
+            <source>Templates</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+            <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+            <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+            <context context-type="linenumber">134</context>
+        </context-group>
+        <context-group purpose="location">
+            <context context-type="sourcefile">
+                app/doc/syllabus/components/syllabus-organization-templates.component.html
+            </context>
           <context context-type="linenumber">5</context>
         </context-group>
-        <note priority="1" from="description">Refers to syllabus templates (blueprint for all syllabi at a university)</note>
-      </trans-unit><trans-unit id="openItems" datatype="html">
-        <source>Open Items</source>
+            <note priority="1" from="description">Refers to syllabus templates (blueprint for all syllabi at a
+                university)
+            </note>
+        </trans-unit>
+        <trans-unit id="myCourses" datatype="html">
+            <source>
+                My :Courses:
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">94</context>
+            <context context-type="linenumber">53</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/open-items.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/syllabus/components/syllabus-dashboard.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">Refers to tasks that have not yet been completed</note>
-      </trans-unit><trans-unit id="fragmentMy" datatype="html">
-        <source>My</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">120</context>
-        </context-group>
-        <note priority="1" from="description">Fragment: My</note>
+            <note priority="1" from="description">Page where students can see all syllabi for all courses they are
+                enrolled in for a term
+            </note>
       </trans-unit><trans-unit id="materialList" datatype="html">
-        <source>Material List</source>
+        <source>
+            Material List
+        </source>
+        <context-group purpose="location">
+            <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+            <context context-type="linenumber">60</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">125</context>
+            <context context-type="linenumber">145</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/pages/material-list.page.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <note priority="1" from="description">For students, list all of materials that they will need to purchase for the term</note>
-      </trans-unit><trans-unit id="fragmentLibrary" datatype="html">
-        <source>Library</source>
+        <note priority="1" from="description">List of materials (e.g., textbooks) that a student will need for a term
+        </note>
+    </trans-unit>
+        <trans-unit id="library" datatype="html">
+            <source>:Syllabus: Library
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">130</context>
+            <context context-type="linenumber">66</context>
         </context-group>
-        <note priority="1" from="description">Fragment: Library</note>
+            <note priority="1" from="description">Central repository of all syllabi in the system</note>
       </trans-unit><trans-unit id="admin" datatype="html">
         <source>Admin</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">141</context>
+            <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+            <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+            <context context-type="linenumber">161</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">176</context>
+            <context context-type="linenumber">196</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/account/account-edit.component.html</context>
@@ -188,89 +224,159 @@
           <context context-type="sourcefile">app/legacy/components/account/account-list.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
-        <note priority="1" from="description">Main menu: Admin</note>
-      </trans-unit><trans-unit id="fragmentManager" datatype="html">
-        <source>Manager</source>
+        <note priority="1" from="description">Admin, short for adminstrator</note>
+    </trans-unit>
+        <trans-unit id="syllabusManager" datatype="html">
+            <source>:Syllabus:
+                Manager
+            </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">146</context>
+            <context context-type="linenumber">75</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">181</context>
-        </context-group>
-        <note priority="1" from="description">Fragment: Manager</note>
-      </trans-unit><trans-unit id="dataHub" datatype="html">
-        <source>Data Hub</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">153</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">188</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/admin-data-hub.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Refers to data hub, where user can import data into Simple Syllabu</note>
-      </trans-unit><trans-unit id="adminMenuSettings" datatype="html">
+            <note priority="1" from="description">Are of the app where admin can create syllabus and manage syllabus
+                templates, as well as track all syllabi in the system
+            </note>
+        </trans-unit>
+        <trans-unit id="dataHub" datatype="html">
+            <source>Data
+                Hub
+            </source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">81</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">173</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">208</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/pages/admin-data-hub.page.html</context>
+                <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">Are of the app where data is imported</note>
+        </trans-unit>
+        <trans-unit id="settings" datatype="html">
         <source>Settings</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">156</context>
+            <context context-type="linenumber">83</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">191</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/admin-settings.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Admin menu: Settings</note>
-      </trans-unit><trans-unit id="profile" datatype="html">
-        <source>Profile</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">162</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">196</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/profile.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Refers to user profile</note>
-      </trans-unit><trans-unit id="menuLogout" datatype="html">
+            <note priority="1" from="description">Refers to system settings</note>
+        </trans-unit>
+        <trans-unit id="profile" datatype="html">
+            <source>Profile</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">88</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">182</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">216</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/pages/profile.page.html</context>
+                <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">As in, user profile</note>
+        </trans-unit>
+        <trans-unit id="logout" datatype="html">
         <source>Logout</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">166</context>
+            <context context-type="linenumber">92</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">200</context>
-        </context-group>
-        <note priority="1" from="description">Main menu: Logout</note>
-      </trans-unit><trans-unit id="login" datatype="html">
-        <source>Login</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">170</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
-          <context context-type="linenumber">204</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/account/account-login-local.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-        <note priority="1" from="description">Where user logs into the site</note>
+            <note priority="1" from="description">Where user can logout of the app</note>
+        </trans-unit>
+        <trans-unit id="login" datatype="html">
+            <source>Login</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">96</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">190</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">224</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/account/account-login-local.component.html</context>
+                <context context-type="linenumber">56</context>
+            </context-group>
+            <note priority="1" from="description">Where user can login to the app</note>
+        </trans-unit>
+        <trans-unit id="pageTitleMyCourses" datatype="html">
+            <source>
+                My :Courses:
+            </source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">139</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/pages/my-courses.page.html</context>
+                <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">Title of the My Courses page</note>
+        </trans-unit>
+        <trans-unit id="fragmentLibrary" datatype="html">
+            <source>Library</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">150</context>
+            </context-group>
+            <note priority="1" from="description">Fragment: Library</note>
+        </trans-unit>
+        <trans-unit id="fragmentManager" datatype="html">
+            <source>Manager</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">166</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">201</context>
+            </context-group>
+            <note priority="1" from="description">Fragment: Manager</note>
+        </trans-unit>
+        <trans-unit id="adminMenuSettings" datatype="html">
+            <source>Settings</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">176</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">211</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/pages/admin-settings.page.html</context>
+                <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">Admin menu: Settings</note>
+        </trans-unit>
+        <trans-unit id="menuLogout" datatype="html">
+            <source>Logout</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">186</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/app/app-header.component.html</context>
+                <context context-type="linenumber">220</context>
+            </context-group>
+            <note priority="1" from="description">Main menu: Logout</note>
       </trans-unit><trans-unit id="warning" datatype="html">
         <source>Warning</source>
         <context-group purpose="location">
@@ -428,11 +534,12 @@
           <context context-type="linenumber">18</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
-          <context context-type="linenumber">29</context>
+            <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
+            <context context-type="linenumber">29</context>
         </context-group>
         <note priority="1" from="description">Content of the message</note>
-      </trans-unit><trans-unit id="noticeSyllabiList" datatype="html">
+    </trans-unit>
+        <trans-unit id="noticeSyllabiList" datatype="html">
         <source>
             A list of the relevant :syllabi: will appear after the email&apos;s content section.
         </source>
@@ -440,10 +547,11 @@
           <context context-type="sourcefile">app/doc/doc-blast/components/doc-blast-dialog.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/message/notice/components/notice-config-edit.component.html
+                </context>
+                <context context-type="linenumber">32</context>
+            </context-group>
         <note priority="1" from="description">Notice that a list of syllabi will appear after the content</note>
       </trans-unit><trans-unit id="replyTo" datatype="html">
         <source>Reply to</source>
@@ -625,7 +733,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">40</context>
+            <context context-type="linenumber">41</context>
         </context-group>
         <note priority="1" from="description">Status update of document when it has been completed automatically</note>
       </trans-unit><trans-unit id="statusCourseMaster" datatype="html">
@@ -634,7 +742,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">46</context>
+            <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">Status of document when it needs editing at the course level</note>
       </trans-unit><trans-unit id="statusRequiredComponents" datatype="html">
@@ -644,7 +752,7 @@
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">52</context>
+            <context context-type="linenumber">55</context>
         </context-group>
         <note priority="1" from="description">Status of document when it has required components that need to be completed</note>
       </trans-unit><trans-unit id="prepositionBy" datatype="html">
@@ -653,11 +761,11 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">86</context>
+            <context context-type="linenumber">89</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">94</context>
+            <context context-type="linenumber">97</context>
         </context-group>
         <note priority="1" from="description">Preposition used when stating who a document was completed by</note>
       </trans-unit><trans-unit id="reapproval" datatype="html">
@@ -667,7 +775,7 @@
                         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">98</context>
+            <context context-type="linenumber">101</context>
         </context-group>
         <note priority="1" from="description">After a document has been rejected, instructing user that they need to submit again for approval</note>
       </trans-unit><trans-unit id="statusNeedsEdit" datatype="html">
@@ -676,7 +784,7 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">107</context>
+            <context context-type="linenumber">110</context>
         </context-group>
         <note priority="1" from="description">Status when a document needs to edited by the following people</note>
       </trans-unit><trans-unit id="statusNeedsApproval" datatype="html">
@@ -685,7 +793,7 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">111</context>
+            <context context-type="linenumber">114</context>
         </context-group>
         <note priority="1" from="description">Status when a document needs to be approved by the following people</note>
       </trans-unit><trans-unit id="noSkip" datatype="html">
@@ -694,7 +802,7 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">122</context>
+            <context context-type="linenumber">125</context>
         </context-group>
         <note priority="1" from="description">Status when a step cannot be skipped and it currently has no one assigned to it</note>
       </trans-unit><trans-unit id="statusInProgress" datatype="html">
@@ -703,7 +811,7 @@
                 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">134</context>
+            <context context-type="linenumber">137</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
@@ -720,7 +828,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">145</context>
+            <context context-type="linenumber">148</context>
         </context-group>
         <note priority="1" from="description">Header above the status details</note>
       </trans-unit><trans-unit id="statusInactive" datatype="html">
@@ -730,7 +838,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">151</context>
+            <context context-type="linenumber">155</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
@@ -744,7 +852,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">160</context>
+            <context context-type="linenumber">165</context>
         </context-group>
         <note priority="1" from="description">Status when previous steps need to done before the template will affect documents that are published</note>
       </trans-unit><trans-unit id="statusNotCompletePublished" datatype="html">
@@ -754,7 +862,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">165</context>
+            <context context-type="linenumber">171</context>
         </context-group>
         <note priority="1" from="description">Staus when previous steps need to be completed before changes that were made can be published</note>
       </trans-unit><trans-unit id="statusNotCompleteNotPublished" datatype="html">
@@ -763,7 +871,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">170</context>
+            <context context-type="linenumber">177</context>
         </context-group>
         <note priority="1" from="description">Status when previous steps need to be completed in order for document to be published</note>
       </trans-unit><trans-unit id="missingRequiredComponents" datatype="html">
@@ -772,7 +880,7 @@
             </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">179</context>
+            <context context-type="linenumber">187</context>
         </context-group>
         <note priority="1" from="description">Status when a document is not published but will be published after the listed required components are added</note>
       </trans-unit><trans-unit id="completeProcessing" datatype="html">
@@ -782,7 +890,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">191</context>
+            <context context-type="linenumber">200</context>
         </context-group>
         <note priority="1" from="description">Status when a document is finished and currently being processed</note>
       </trans-unit><trans-unit id="termNotPublished" datatype="html">
@@ -792,7 +900,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">199</context>
+            <context context-type="linenumber">208</context>
         </context-group>
         <note priority="1" from="description">Status when a syllabi are not visible by students until the term is published</note>
       </trans-unit><trans-unit id="statuscompletedSyllabus" datatype="html">
@@ -802,7 +910,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">207</context>
+            <context context-type="linenumber">217</context>
         </context-group>
         <note priority="1" from="description">Status when document is finished and affecting related syllabi. Note to user that recent changes might not show for a few minutes</note>
       </trans-unit><trans-unit id="statuspublishedTermSyllabus" datatype="html">
@@ -812,7 +920,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">216</context>
+            <context context-type="linenumber">227</context>
         </context-group>
         <note priority="1" from="description">Status when document is published and students can see it. Note that recent changes might not show immediately</note>
       </trans-unit><trans-unit id="statusPublishedSyllabus" datatype="html">
@@ -821,7 +929,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">221</context>
+            <context context-type="linenumber">233</context>
         </context-group>
         <note priority="1" from="description">Status when a document is published. Note that recent changes might not show immediately</note>
       </trans-unit><trans-unit id="statusProcessingPublished" datatype="html">
@@ -831,7 +939,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">229</context>
+            <context context-type="linenumber">242</context>
         </context-group>
         <note priority="1" from="description">Status when a document is being rendered by the sysyem. Note that recent changes will not show until processing is done</note>
       </trans-unit><trans-unit id="statusProcessing" datatype="html">
@@ -840,7 +948,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc/components/doc-status-sheet.component.html</context>
-          <context context-type="linenumber">235</context>
+            <context context-type="linenumber">249</context>
         </context-group>
         <note priority="1" from="description">Status when a document is processing and not yet published</note>
       </trans-unit><trans-unit id="newField" datatype="html">
@@ -861,8 +969,10 @@
           <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
-          <context context-type="linenumber">25</context>
+            <context context-type="sourcefile">
+                app/doc/heading-column/components/heading-column-edit-dialog.component.html
+            </context>
+            <context context-type="linenumber">25</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading-component/components/heading-component-name.component.html</context>
@@ -1081,12 +1191,14 @@
           <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/heading-column/components/heading-column-edit-dialog.component.html</context>
-          <context context-type="linenumber">82</context>
+            <context context-type="sourcefile">
+                app/doc/heading-column/components/heading-column-edit-dialog.component.html
+            </context>
+            <context context-type="linenumber">82</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/heading-component/components/heading-component-body-sliders.component.html</context>
-          <context context-type="linenumber">12</context>
+            <context context-type="sourcefile">app/doc/heading-component/components/heading-component-body-sliders.component.html</context>
+            <context context-type="linenumber">12</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/form/components/basic-form.component.html</context>
@@ -1233,8 +1345,9 @@
           <context context-type="linenumber">7</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-uploader-dialog.component.html</context>
-          <context context-type="linenumber">67</context>
+            <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-uploader-dialog.component.html
+            </context>
+            <context context-type="linenumber">67</context>
         </context-group>
         <note priority="1" from="description">Where user can upload files</note>
       </trans-unit><trans-unit id="uploadUrl" datatype="html">
@@ -1374,18 +1487,22 @@
           <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">Explains to user what logic type &apos;any&apos; means</note>
-      </trans-unit><trans-unit id="all" datatype="html">
+    </trans-unit>
+        <trans-unit id="all" datatype="html">
         <source>All</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading/components/heading-condition-dialog.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-import-tracker.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">All (e.g. &apos;import all&apos;)</note>
-      </trans-unit><trans-unit id="allConditionsMatch" datatype="html">
+            <context-group purpose="location">
+                <context context-type="sourcefile">
+                    app/legacy/components/data-hub/data-hub-import-tracker.component.html
+                </context>
+                <context context-type="linenumber">7</context>
+            </context-group>
+            <note priority="1" from="description">All (e.g. &apos;import all&apos;)</note>
+        </trans-unit>
+        <trans-unit id="allConditionsMatch" datatype="html">
         <source>(all conditions must match)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/heading/components/heading-condition-dialog.component.html</context>
@@ -1422,12 +1539,12 @@
           <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
-          <context context-type="linenumber">28</context>
+            <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
+            <context context-type="linenumber">28</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/chart/syllabus-status-organization-chart.component.html</context>
-          <context context-type="linenumber">48</context>
+            <context context-type="sourcefile">app/legacy/components/chart/syllabus-status-organization-chart.component.html</context>
+            <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">Status for completed document</note>
       </trans-unit><trans-unit id="statusNotStarted" datatype="html">
@@ -2037,13 +2154,6 @@
           <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">Page not found error</note>
-      </trans-unit><trans-unit id="pageTitleMyCourses" datatype="html">
-        <source>My :Courses:</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/pages/my-courses.page.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Title of the My Courses page</note>
       </trans-unit><trans-unit id="pageTitleSyllabusLibrary" datatype="html">
         <source>:Syllabus: Library</source>
         <context-group purpose="location">
@@ -2125,10 +2235,12 @@
           <context context-type="linenumber">17</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/doc/doc-full-page/components/doc-view-notice.component.html</context>
-          <context context-type="linenumber">34</context>
+            <context context-type="sourcefile">app/doc/doc-full-page/components/doc-view-notice.component.html</context>
+            <context context-type="linenumber">34</context>
         </context-group>
-        <note priority="1" from="description">Displays when syllabus is not yet available because it is currently processing</note>
+        <note priority="1" from="description">Displays when syllabus is not yet available because it is currently
+            processing
+        </note>
       </trans-unit><trans-unit id="syllabusPendingContributors" datatype="html">
         <source>
     This :syllabus: is completed, but is awaiting content from other contributors. Please check back later.
@@ -2593,7 +2705,8 @@
           <context context-type="linenumber">11</context>
         </context-group>
         <note priority="1" from="description">Header that appears before a list of syllabi that are awaiting approval</note>
-      </trans-unit><trans-unit id="buttonMaterialList" datatype="html">
+    </trans-unit>
+        <trans-unit id="buttonMaterialList" datatype="html">
         <source>
           View Material List
         </source>
@@ -2650,20 +2763,23 @@
           <context context-type="linenumber">31</context>
         </context-group>
         <note priority="1" from="description">Error that when user does not select a syllabus status</note>
-      </trans-unit><trans-unit id="reportsErrorType" datatype="html">
+    </trans-unit>
+        <trans-unit id="reportsErrorType" datatype="html">
         <source>At least one type is required</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/syllabus/components/syllabus-search.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/report/components/report-content-export.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/report/components/report-content-export.component.html</context>
+                <context context-type="linenumber">19</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">
+                    app/legacy/components/report/content-comparison-report.component.html
+                </context>
+                <context context-type="linenumber">28</context>
+            </context-group>
         <note priority="1" from="description">Error in reports when user does not select a syllabus type</note>
       </trans-unit><trans-unit id="trackNotPublished" datatype="html">
         <source>Not Published</source>
@@ -2940,7 +3056,7 @@
         </context-group>
         <note priority="1" from="description">In terminology settings, placeholder for text input where user can terminology for &apos;organizations&apos;</note>
       </trans-unit><trans-unit id="tooltipAddAttribute" datatype="html">
-        <source>Add new :entityType: attribute</source>
+        <source>Add new attribute</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/attribute-settings-edit.component.html</context>
           <context context-type="linenumber">11</context>
@@ -3306,7 +3422,8 @@
           <context context-type="linenumber">203</context>
         </context-group>
         <note priority="1" from="description">In system settings, placeholder for dropdown where admin selects primary login/authentication method</note>
-      </trans-unit><trans-unit id="headerRestore" datatype="html">
+    </trans-unit>
+        <trans-unit id="headerRestore" datatype="html">
         <source>Restore from production</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/setting/system-settings.component.html</context>
@@ -3608,7 +3725,8 @@
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">Displays as an error message when no components have been selected</note>
-      </trans-unit><trans-unit id="reportsLink" datatype="html">
+    </trans-unit>
+        <trans-unit id="reportsLink" datatype="html">
         <source>
                         Component link
                     </source>
@@ -3695,7 +3813,8 @@
           <context context-type="linenumber">88</context>
         </context-group>
         <note priority="1" from="description">Prompts the user to select the type of component</note>
-      </trans-unit><trans-unit id="importTargetContent" datatype="html">
+    </trans-unit>
+        <trans-unit id="importTargetContent" datatype="html">
         <source>Target content</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/doc/doc-import/components/doc-import-map.component.html</context>
@@ -4058,7 +4177,7 @@
         </context-group>
         <note priority="1" from="description">Placeholder for text input in data hub where user enteres a name for their connection</note>
       </trans-unit><trans-unit id="connectionTypeDomain" datatype="html">
-        <source>:connectionType: domain</source>
+        <source>Domain</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/data-hub/data-hub-lms-setup.component.html</context>
           <context context-type="linenumber">12</context>
@@ -4156,7 +4275,8 @@
           <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">In data hub, header above button that allows user to copy LTI Key</note>
-      </trans-unit><trans-unit id="keyCopied" datatype="html">
+    </trans-unit>
+        <trans-unit id="keyCopied" datatype="html">
         <source>
             Copied LTI Key to clipboard.
         </source>
@@ -4393,20 +4513,23 @@
           <context context-type="linenumber">27</context>
         </context-group>
         <note priority="1" from="description">In courses, prompts user to choose a filter to search for a course</note>
-      </trans-unit><trans-unit id="searchNoResults" datatype="html">
+    </trans-unit>
+        <trans-unit id="searchNoResults" datatype="html">
         <source>No results found.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/course/course-list.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/account/account-list.component.html</context>
-          <context context-type="linenumber">43</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/legacy/components/report/content-comparison-report.component.html</context>
-          <context context-type="linenumber">120</context>
-        </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">app/legacy/components/account/account-list.component.html</context>
+                <context context-type="linenumber">43</context>
+            </context-group>
+            <context-group purpose="location">
+                <context context-type="sourcefile">
+                    app/legacy/components/report/content-comparison-report.component.html
+                </context>
+                <context context-type="linenumber">120</context>
+            </context-group>
         <note priority="1" from="description">Displays when no search has no results</note>
       </trans-unit><trans-unit id="errorCourseNumber" datatype="html">
         <source>:Course: number is a required field</source>
@@ -4709,7 +4832,8 @@
           <context context-type="linenumber">7</context>
         </context-group>
         <note priority="1" from="description">In accounts, error message when user tries to create an account without inputting a first name</note>
-      </trans-unit><trans-unit id="accountsLastName" datatype="html">
+    </trans-unit>
+        <trans-unit id="accountsLastName" datatype="html">
         <source>Last name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/legacy/components/account/account-edit.component.html</context>
@@ -5458,7 +5582,8 @@
           <context context-type="linenumber">17</context>
         </context-group>
         <note priority="1" from="description">Title for the notification that goes out to an instructor when their syllabus is rejected</note>
-      </trans-unit><trans-unit id="descriptionRejected" datatype="html">
+    </trans-unit>
+        <trans-unit id="descriptionRejected" datatype="html">
         <source>
                 This notification is sent to editors when their :syllabus:
                 or :course master: has been rejected.
@@ -5598,7 +5723,8 @@
           <context context-type="linenumber">71</context>
         </context-group>
         <note priority="1" from="description">When editing notification digest mode, this is where the user will set the send time of the notification</note>
-      </trans-unit><trans-unit id="enableLink" datatype="html">
+    </trans-unit>
+        <trans-unit id="enableLink" datatype="html">
         <source>Enable link</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/site/components/custom-link-edit.component.html</context>
@@ -5754,7 +5880,7 @@
         <note priority="1" from="description">Error message button label for when the system is unable to save the syllabus content</note>
       </trans-unit>
       <trans-unit id="docEngagementSummaryLegendViewed" datatype="html">
-        <source>Students who viewed the :syllabus:</source>
+          <source>Students who viewed the :syllabus:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-engagement/components/doc-engagement-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5766,7 +5892,7 @@
         <note priority="1" from="description">Chart legend for students who have viewed a syllabus</note>
       </trans-unit>
       <trans-unit id="docEngagementSummaryLegendNotViewed" datatype="html">
-        <source>Students who have not viewed the :syllabus:</source>
+          <source>Students who have not viewed the :syllabus:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-engagement/components/doc-engagement-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5790,7 +5916,7 @@
         <note priority="1" from="description">Title of dialog to ask the user to update their email so they may &quot;follow&quot; the document</note>
       </trans-unit>
       <trans-unit id="docFollowEmailDialogMessage" datatype="html">
-        <source>Please update your email address so we may send you updates for :title:</source>
+          <source>Please update your email address so we may send you updates for :title:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc-full-page/components/doc-view-header.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5802,7 +5928,7 @@
         <note priority="1" from="description">Message body of dialog to ask the user to update their email so they may &quot;follow&quot; the document</note>
       </trans-unit>
       <trans-unit id="docDeleteConfirmMessage" datatype="html">
-        <source>This :doc_family: will no longer be viewable by students or faculty</source>
+          <source>This :doc_family: will no longer be viewable by students or faculty</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/doc/components/doc-summary.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5858,7 +5984,7 @@
         <note priority="1" from="description">Title of a confirmation box confirming the user wants to undelete the component</note>
       </trans-unit>
       <trans-unit id="docComponentUndeleteConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to undelete &quot;:name:&quot;?</source>
+          <source>Are you sure you wish to undelete &quot;:name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/heading-component/components/heading-component-template-panel.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -5866,7 +5992,7 @@
         <note priority="1" from="description">Message of a confirmation box confirming the user wants to undelete the component</note>
       </trans-unit>
       <trans-unit id="docComponentDeleteConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to delete &quot;:name:&quot;?</source>
+          <source>Are you sure you wish to delete &quot;:name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/doc/heading-component/components/heading-component-template-panel.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6054,7 +6180,7 @@
         <note priority="1" from="description">Status of a document that has not been started</note>
       </trans-unit>
       <trans-unit id="errorCourseNumberDuplicate" datatype="html">
-        <source>This :term: and :subject: already have a :course: with a :course: number of &quot;:course_number:&quot;.</source>
+          <source>This :term: and :subject: already have a :course: with a :course: number of &quot;:course_number:&quot;.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-edit.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6062,7 +6188,7 @@
         <note priority="1" from="description">Error message in courses, when course has the same number as another course of the same term and subject</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignTitle" datatype="html">
-        <source>Reassign :course:</source>
+          <source>Reassign :course:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6070,7 +6196,7 @@
         <note priority="1" from="description">Title of the popup for reassigning a course&apos; parent</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignSubjectTitle" datatype="html">
-        <source>Reassign :subject_name: from :organization_name:</source>
+          <source>Reassign :subject_name: from :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6078,7 +6204,9 @@
         <note priority="1" from="description">Title of the popup for reassigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerReassignSubjectMessage" datatype="html">
-        <source>:subject_name: is currently assigned to :current_organization_name:, do you wish to reassign to :new_organization_name:</source>
+          <source>:subject_name: is currently assigned to :current_organization_name:, do you wish to reassign to
+              :new_organization_name:
+          </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6086,7 +6214,7 @@
         <note priority="1" from="description">Message of the popup for reassigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerAssignSubjectTitle" datatype="html">
-        <source>Assign :subject_name: to :organization_name:</source>
+          <source>Assign :subject_name: to :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6094,7 +6222,8 @@
         <note priority="1" from="description">Title of the popup for assigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerAssignSubjectMessage" datatype="html">
-        <source>This will assign all :subject_name: :courses: of current and future :terms: to :organization_name:</source>
+          <source>This will assign all :subject_name: :courses: of current and future :terms: to :organization_name:
+          </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6102,7 +6231,7 @@
         <note priority="1" from="description">Message of the popup for assigning a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerRemoveSubjectTitle" datatype="html">
-        <source>Remove :subject_name: from :organization_name:</source>
+          <source>Remove :subject_name: from :organization_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6110,7 +6239,9 @@
         <note priority="1" from="description">Title of the popup for removing a subject&apos;s parent</note>
       </trans-unit>
       <trans-unit id="courseManagerRemoveSubjectMessage" datatype="html">
-        <source>Are you sure you wish to remove :subject_name: from :organization_name:? This will remove all :subject_name: :courses: of current and future :terms: from :organization_name:.</source>
+          <source>Are you sure you wish to remove :subject_name: from :organization_name:? This will remove all
+              :subject_name: :courses: of current and future :terms: from :organization_name:.
+          </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/course/course-manager.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6126,7 +6257,7 @@
         <note priority="1" from="description">Title of the popup when confirming the user wants to cancel an import</note>
       </trans-unit>
       <trans-unit id="dataHubImportCancelConfirmationMessage" datatype="html">
-        <source>Are you sure you wish to delete the import of &quot;:import_name:&quot;?</source>
+          <source>Are you sure you wish to delete the import of &quot;:import_name:&quot;?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-import-tracker.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6134,7 +6265,7 @@
         <note priority="1" from="description">Message of the popup when confirming the user wants to cancel an import</note>
       </trans-unit>
       <trans-unit id="dataHubImportCancelConfirmationNotice" datatype="html">
-        <source>Deleted :import_name:</source>
+          <source>Deleted :import_name:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-import-tracker.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6221,16 +6352,19 @@
         </context-group>
         <note priority="1" from="description">Text fragment for &quot;suffix&quot;, the suffix of a person&apos; name.</note>
       </trans-unit>
-      <trans-unit id="fragmentTitle" datatype="html">
-        <source>title</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-mapper.component.ts</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <note priority="1" from="description">Text fragment for &quot;title&quot;, the title of a person&apos; name.</note>
-      </trans-unit>
+        <trans-unit id="fragmentTitle" datatype="html">
+            <source>title</source>
+            <context-group purpose="location">
+                <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-mapper.component.ts
+                </context>
+                <context context-type="linenumber">1</context>
+            </context-group>
+            <note priority="1" from="description">Text fragment for &quot;title&quot;, the title of a person&apos;
+                name.
+            </note>
+        </trans-unit>
       <trans-unit id="deleted" datatype="html">
-        <source>Deleted :fileName:</source>
+          <source>Deleted :fileName:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/data-hub/data-hub-mapper.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6246,7 +6380,7 @@
         <note priority="1" from="description">Error message when a file user is trying to upload is too large</note>
       </trans-unit>
       <trans-unit id="errorOrganizationNameDuplicate" datatype="html">
-        <source>:parent_name: already has an :organization: with this name.</source>
+          <source>:parent_name: already has an :organization: with this name.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/organization/organization-edit.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6262,7 +6396,7 @@
         <note priority="1" from="description">Popup title to confirmation box when admin restores a sandbox site</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPlaceholder" datatype="html">
-        <source>Organization level :level:</source>
+          <source>Organization level :level:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6270,7 +6404,7 @@
         <note priority="1" from="description">Input placeholder for a specific organization level, eg &quot;Organization level 1&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPluralPlaceholder" datatype="html">
-        <source>Organization level :level: plural</source>
+          <source>Organization level :level: plural</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6278,7 +6412,7 @@
         <note priority="1" from="description">Input placeholder for a specific, pluralized organization level, eg &quot;Organization level 1 plural&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelError" datatype="html">
-        <source>Organization level :level: is a required field</source>
+          <source>Organization level :level: is a required field</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6286,7 +6420,7 @@
         <note priority="1" from="description">Input error for a specific organization level, eg &quot;Organization level 1&quot;</note>
       </trans-unit>
       <trans-unit id="terminologyOrganizationLevelPluralError" datatype="html">
-        <source>Organization level :level: plural is a required field</source>
+          <source>Organization level :level: plural is a required field</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/components/setting/terminology-settings.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -6294,7 +6428,7 @@
         <note priority="1" from="description">Input errror for a specific, pluralized organization level, eg &quot;Organization level 1 plural&quot;</note>
       </trans-unit>
       <trans-unit id="editorVideoFileSizeError" datatype="html">
-        <source>Video is too large, video files may not exceed :size:.</source>
+          <source>Video is too large, video files may not exceed :size:.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/services/froala.service.ts</context>
           <context context-type="linenumber">1</context>
@@ -6302,7 +6436,7 @@
         <note priority="1" from="description">Error message when user tries to upload a video that is too large.</note>
       </trans-unit>
       <trans-unit id="editorImageFileSizeError" datatype="html">
-        <source>Image is too large, image files may not exceed :size:.</source>
+          <source>Image is too large, image files may not exceed :size:.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/legacy/services/froala.service.ts</context>
           <context context-type="linenumber">1</context>
