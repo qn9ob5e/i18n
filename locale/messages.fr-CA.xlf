@@ -107,6 +107,120 @@
             <source>Manager</source>
             <target>Gestionnaire</target>
         </trans-unit>
+        <trans-unit id="adminMenuSettings" datatype="html">
+            <source>Settings</source>
+            <target>Configuration</target>
+        </trans-unit>
+        <trans-unit id="menuLogout" datatype="html">
+            <source>Logout</source>
+            <target>Déconnexion</target>
+        </trans-unit>
+        <trans-unit id="warning" datatype="html">
+            <source>Warning</source>
+            <target>Attention</target>
+        </trans-unit>
+        <trans-unit id="warningDeactivateChildren" datatype="html">
+            <source>
+                Inactivating this item will automatically inactivate its children:
+            </source>
+            <target>Désactiver cet élément désactivera automatiquement ses dépendants.</target>
+        </trans-unit>
+        <trans-unit id="buttonClose" datatype="html">
+            <source>
+                Close
+            </source>
+            <target>Fermer</target>
+        </trans-unit>
+        <trans-unit id="undelete" datatype="html">
+            <source>Undelete</source>
+            <target>Rétablir</target>
+        </trans-unit>
+        <trans-unit id="delete" datatype="html">
+            <source>Delete</source>
+            <target>Effacer</target>
+        </trans-unit>
+        <trans-unit id="notifyEditors" datatype="html">
+            <source>
+                Notify editors
+            </source>
+            <target>Prévenir les éditeurs</target>
+        </trans-unit>
+        <trans-unit id="messageSubject" datatype="html">
+            <source>Subject</source>
+            <target>Sujet</target>
+        </trans-unit>
+        <trans-unit id="subjectRequired" datatype="html">
+            <source>Subject is a required field</source>
+            <target>Sujet est un champ obligatoire</target>
+        </trans-unit>
+        <trans-unit id="content" datatype="html">
+            <source>Content</source>
+            <target>Contenu</target>
+        </trans-unit>
+        <trans-unit id="noticeSyllabiList" datatype="html">
+            <source>
+                A list of the relevant :syllabi: will appear after the email's content section.
+            </source>
+            <target>Une liste des :syllabi: pertinents apparaîtra après la section contenu de l'e-mail.</target>
+        </trans-unit>
+        <trans-unit id="replyTo" datatype="html">
+            <source>Reply to</source>
+            <target>Répondre à</target>
+        </trans-unit>
+        <trans-unit id="errorInvalidEmail" datatype="html">
+            <source>Must be a valid email address</source>
+            <target>L'adresse e-mail doit être valide</target>
+        </trans-unit>
+        <trans-unit id="refresh" datatype="html">
+            <source>
+                Refresh
+            </source>
+            <target>Rafraîchir</target>
+        </trans-unit>
+        <trans-unit id="engagementStudent" datatype="html">
+            <source>Student</source>
+            <target>Étudiant</target>
+        </trans-unit>
+        <trans-unit id="engagementCount" datatype="html">
+            <source>Count</source>
+            <target>Nombre</target>
+        </trans-unit>
+        <trans-unit id="engagementLastViewed" datatype="html">
+            <source>Last viewed</source>
+            <target>Vu pour la dernière fois</target>
+        </trans-unit>
+        <trans-unit id="engagementNotviewed" datatype="html">
+            <source>
+                Not viewed
+            </source>
+            <target>Non vu</target>
+        </trans-unit>
+        <trans-unit id="buttonEngagement" datatype="html">
+            <source>
+                Engagement
+            </source>
+            <target>Engagement</target>
+        </trans-unit>
+        <trans-unit id="engagementNoEnrollment" datatype="html">
+            <source>
+                No enrollment
+            </source>
+            <target>Pas d'inscription</target>
+        </trans-unit>
+        <trans-unit id="engagementNoEngagement" datatype="html">
+            <source>
+                No engagement
+            </source>
+            <target>Pas d'engagement</target>
+        </trans-unit>
+        <trans-unit id="importContent" datatype="html">
+            <source>Import content</source>
+            <target>Importer le contenu</target>
+        </trans-unit>
+        <trans-unit id="importSelectSource" datatype="html">
+            <source>Select source</source>
+            <target>Choisir la source</target>
+        </trans-unit>
         <trans-unit id="importMapContent" datatype="html">
             <source>Map content</source>
             <target>Plan du contenu</target>
