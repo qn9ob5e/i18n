@@ -107,6 +107,38 @@
             <source>Manager</source>
             <target>Gestionnaire</target>
         </trans-unit>
+        <trans-unit id="messageSubject" datatype="html">
+            <source>Subject</source>
+            <target>Sujet</target>
+        </trans-unit>
+        <trans-unit id="subjectRequired" datatype="html">
+            <source>Subject is a required field</source>
+            <target>Sujet est un champ obligatoire</target>
+        </trans-unit>
+        <trans-unit id="content" datatype="html">
+            <source>Content</source>
+            <target>Contenu</target>
+        </trans-unit>
+        <trans-unit id="noticeSyllabiList" datatype="html">
+            <source>
+                A list of the relevant :syllabi: will appear after the email's content section.
+            </source>
+            <target>Une liste des :syllabi: pertinents apparaîtra après la section contenu de l'e-mail.</target>
+        </trans-unit>
+        <trans-unit id="replyTo" datatype="html">
+            <source>Reply to</source>
+            <target>Répondre à</target>
+        </trans-unit>
+        <trans-unit id="errorInvalidEmail" datatype="html">
+            <source>Must be a valid email address</source>
+            <target>L'adresse e-mail doit être valide</target>
+        </trans-unit>
+        <trans-unit id="refresh" datatype="html">
+            <source>
+                Refresh
+            </source>
+            <target>Rafraîchir</target>
+        </trans-unit>
         <trans-unit id="engagementStudent" datatype="html">
             <source>Student</source>
             <target>Étudiant</target>
