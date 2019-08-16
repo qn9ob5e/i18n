@@ -116,10 +116,10 @@
             <source>Logout</source>
             <target>Déconnexion</target>
         </trans-unit>
-<!--        <trans-unit id="warning" datatype="html">-->
-<!--            <source>Warning</source>-->
-<!--            <target>Attention</target>-->
-<!--        </trans-unit>-->
+        <trans-unit id="warning" datatype="html">
+            <source>Warning</source>
+            <target>Attention</target>
+        </trans-unit>
 <!--        <trans-unit id="warningDeactivateChildren" datatype="html">-->
 <!--            <source>-->
 <!--                Inactivating this item will automatically inactivate its children:-->
