@@ -107,6 +107,26 @@
             <source>Manager</source>
             <target>Gestionnaire</target>
         </trans-unit>
+        <trans-unit id="buttonClose" datatype="html">
+            <source>
+                Close
+            </source>
+            <target>Fermer</target>
+        </trans-unit>
+        <trans-unit id="undelete" datatype="html">
+            <source>Undelete</source>
+            <target>Rétablir</target>
+        </trans-unit>
+        <trans-unit id="delete" datatype="html">
+            <source>Delete</source>
+            <target>Effacer</target>
+        </trans-unit>
+        <trans-unit id="notifyEditors" datatype="html">
+            <source>
+                Notify editors
+            </source>
+            <target>Prévenir les éditeurs</target>
+        </trans-unit>
         <trans-unit id="messageSubject" datatype="html">
             <source>Subject</source>
             <target>Sujet</target>
