@@ -123,7 +123,7 @@
             <source>
                 Inactivating this item will automatically inactivate its children:
             </source>
-            <target>Désactiver cet élément désactivera automatiquement ses dépendants.</target>
+            <target></target>
         </trans-unit>
         <trans-unit id="buttonClose" datatype="html">
             <source>
