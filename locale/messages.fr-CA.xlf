@@ -2,6 +2,111 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="appDescription" datatype="html">
+        <source>syllabus management software</source>
+          <target>Logiciel de gestion de syllabus</target>
+      </trans-unit>
+      <trans-unit id="b5629d298ff1a69b8db19a4ba2995c76b52da604" datatype="html">
+        <source>Support</source>
+          <target>Assistance</target>
+      </trans-unit>
+        <trans-unit id="pageTitlePrivacyPolicy" datatype="html">
+        <source>Privacy Policy</source>
+            <target>Politique de confidentialité</target>
+      </trans-unit>
+      <trans-unit id="5a682e199e01142a1a4cdb5b5868dadf691ab7c3" datatype="html">
+        <source>© 2019 Simple Higher Ed</source>
+        <target>© 2019 Simple Higher Ed</target>
+      </trans-unit>
+        <trans-unit id="ac67a80778287d61a48f19dcfd4013b60b635c76" datatype="html">
+        <source>
+            :Syllabus: management system
+        </source>
+            <target>:Syllabus: gestion de système</target>
+      </trans-unit>
+        <trans-unit id="altDashboard" datatype="html">
+            <source>Dashboard page</source>
+            <target>Page du tableau de bord</target>
+        </trans-unit>
+      <trans-unit id="menuReports" datatype="html">
+        <source>Reports</source>
+          <target>Rapports</target>
+      </trans-unit>
+        <trans-unit id="openItems" datatype="html">
+            <source>Open Items</source>
+            <target>Éléments ouverts</target>
+      </trans-unit>
+        <trans-unit id="published" datatype="html">
+        <source>Published</source>
+            <target>Publié</target>
+      </trans-unit>
+        <trans-unit id="dashboard" datatype="html">
+            <source>Dashboard</source>
+            <target>Tableau de bord</target>
+        </trans-unit>
+        <trans-unit id="templates" datatype="html">
+            <source>Templates</source>
+            <target>Modèles</target>
+      </trans-unit>
+        <trans-unit id="myCourses" datatype="html">
+            <source>
+                My :Courses:
+            </source>
+            <target>Mes :Courses:</target>
+      </trans-unit>
+        <trans-unit id="materialList" datatype="html">
+        <source>Material List</source>
+            <target>Liste de documents</target>
+      </trans-unit>
+        <trans-unit id="library" datatype="html">
+            <source>:Syllabus: Library
+            </source>
+            <target>:Syllabus: Librairie</target>
+      </trans-unit>
+        <trans-unit id="admin" datatype="html">
+        <source>Admin</source>
+            <target>Administrateur</target>
+      </trans-unit>
+        <trans-unit id="syllabusManager" datatype="html">
+            <source>:Syllabus:
+                Manager
+            </source>
+            <target>Syllabus :Gestionnaire:</target>
+      </trans-unit>
+        <trans-unit id="dataHub" datatype="html">
+        <source>Data Hub</source>
+            <target>Centre de données</target>
+      </trans-unit>
+        <trans-unit id="settings" datatype="html">
+        <source>Settings</source>
+            <target>Configuration</target>
+      </trans-unit>
+        <trans-unit id="profile" datatype="html">
+        <source>Profile</source>
+            <target>Profil</target>
+        </trans-unit>
+        <trans-unit id="logout" datatype="html">
+            <source>Logout</source>
+            <target>Déconnexion</target>
+        </trans-unit>
+        <trans-unit id="login" datatype="html">
+            <source>Login</source>
+            <target>Connexion</target>
+        </trans-unit>
+        <trans-unit id="pageTitleMyCourses" datatype="html">
+            <source>
+                My :Courses:
+            </source>
+            <target>Mes :Courses:</target>
+        </trans-unit>
+        <trans-unit id="fragmentLibrary" datatype="html">
+            <source>Library</source>
+            <target>Librairie</target>
+        </trans-unit>
+        <trans-unit id="fragmentManager" datatype="html">
+            <source>Manager</source>
+            <target>Gestionnaire</target>
+        </trans-unit>
         <trans-unit id="importMapContent" datatype="html">
             <source>Map content</source>
             <target>Plan du contenu</target>
