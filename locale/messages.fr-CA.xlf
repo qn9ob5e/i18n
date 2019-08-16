@@ -2,6 +2,327 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+        <trans-unit id="importMapContent" datatype="html">
+            <source>Map content</source>
+            <target>Plan du contenu</target>
+        </trans-unit>
+        <trans-unit id="importConfirm" datatype="html">
+            <source>Confirm import</source>
+            <target>Confirmer l'importation</target>
+        </trans-unit>
+        <trans-unit id="buttonStartImport" datatype="html">
+            <source>
+                Start import of the following content
+            </source>
+            <target>Commencer l'importation du contenu suivant</target>
+        </trans-unit>
+        <trans-unit id="recentlySubmitted" datatype="html">
+            <source>has been submitted.</source>
+            <target>a été soumis</target>
+        </trans-unit>
+        <trans-unit id="syllabusLinks" datatype="html">
+            <source>
+                You may copy the links below to provide a link or an embedded version of the :syllabus: for an
+                external system.
+            </source>
+            <target>Copiez le lien ci-dessous pour obtenir un lien ou une version intégrée du :syllabus: pour un système
+                externe.
+            </target>
+        </trans-unit>
+        <trans-unit id="syllabusPublishedPageLink" datatype="html">
+            <source>
+                These links are also available on the Published page.
+            </source>
+            <target>Ces liens sont également disponibles sur la page publiée.</target>
+        </trans-unit>
+        <trans-unit id="statusAutoCompleted" datatype="html">
+            <source>
+                This :docType: has been automatically completed.
+            </source>
+            <target>Ce :docType: a été publié automatiquement.</target>
+        </trans-unit>
+        <trans-unit id="statusCourseMaster" datatype="html">
+            <source>
+                This :docType: will be automatically generated once its :course_master: has been completed.
+            </source>
+            <target>Ce :docType: sera généré automatiquement une fois que son :course_master: aura été complété.
+            </target>
+        </trans-unit>
+        <trans-unit id="statusRequiredComponents" datatype="html">
+            <source>
+                This :docType: will be automatically completed once the following required components are
+                created:
+            </source>
+            <target>Ce :docType: sera complété automatiquement une fois que les parties obligatoires suivantes auront
+                été créées.
+            </target>
+        </trans-unit>
+        <trans-unit id="prepositionBy" datatype="html">
+            <source>
+                by
+            </source>
+            <target>par</target>
+        </trans-unit>
+        <trans-unit id="reapproval" datatype="html">
+            <source>
+                Must be
+                resubmitted for approval.
+            </source>
+            <target>Doit être resoumis pour validation</target>
+        </trans-unit>
+        <trans-unit id="statusNeedsEdit" datatype="html">
+            <source>
+                Needs editing from one of the following:
+            </source>
+            <target>Besoin de modifier un des éléments suivants :</target>
+        </trans-unit>
+        <trans-unit id="statusNeedsApproval" datatype="html">
+            <source>
+                Needs approval from one of the following:
+            </source>
+            <target>Besoin de validation d'un des éléments suivants :</target>
+        </trans-unit>
+        <trans-unit id="noSkip" datatype="html">
+            <source>
+                There are no users assigned to this step, and it may not be skipped.
+            </source>
+            <target>Il n'y a pas d'utilisateurs assigné à cette étape, et cela ne peut pas être ignoré.</target>
+        </trans-unit>
+        <trans-unit id="statusInProgress" datatype="html">
+            <source>
+                In progress
+            </source>
+            <target>En cours</target>
+        </trans-unit>
+        <trans-unit id="statusDetails" datatype="html">
+            <source>
+                Status details
+            </source>
+            <target>Détails du statut.</target>
+        </trans-unit>
+        <trans-unit id="statusInactive" datatype="html">
+            <source>
+                This :docType: has been inactivated and will need to be re-activated in order for it to be
+                worked on and published.
+            </source>
+            <target>Ce :docType: a été désactivé et doit être réactivé pour qu'on puis travailler dessus ou le
+                publier.
+            </target>
+        </trans-unit>
+        <trans-unit id="statusNotCompleteTemplate" datatype="html">
+            <source>
+                The above steps need to be completed before this :docType: will impact
+                published :syllabi:.
+            </source>
+            <target>Les étapes ci-dessus doivent être complétées avant que :docType: affecte :syllabi: publié.</target>
+        </trans-unit>
+        <trans-unit id="statusNotCompletePublished" datatype="html">
+            <source>
+                The above steps need to be completed before updates made to this :docType: will be
+                published.
+            </source>
+            <target>Les étapes ci-dessus doivent être complétées avant que les changements effectués ce :docType: soient
+                publiés.
+            </target>
+        </trans-unit>
+        <trans-unit id="statusNotCompleteNotPublished" datatype="html">
+            <source>
+                The above steps need to be completed before this :docType: will be published.
+            </source>
+            <target>Les étapes ci-dessus doivent être complétées avant que :docType: soit publié.</target>
+        </trans-unit>
+        <trans-unit id="missingRequiredComponents" datatype="html">
+            <source>
+                This :docType: will be published once the following required components are created:
+            </source>
+            <target>This :docType: sera publié lorsque les parties obligatoires suivantes auront été créées :</target>
+        </trans-unit>
+        <trans-unit id="completeProcessing" datatype="html">
+            <source>
+                This :docType: is completed and will be published once it has been processed by the
+                application.
+            </source>
+            <target>Ce :docType: est complété et sera publié une fois qu'il aura été traité par l'application.</target>
+        </trans-unit>
+        <trans-unit id="termNotPublished" datatype="html">
+            <source>
+                This :term: is not published. Any :syllabi:
+                will be hidden from students until it is published.
+            </source>
+            <target>Ce :term: n'est pas publié. Tout :syllabi: sera caché des étudiants jusqu'à sa publication.</target>
+        </trans-unit>
+        <trans-unit id="statuscompletedSyllabus" datatype="html">
+            <source>
+                This :docType: is completed and impacting all associated :syllabi:. Recent
+                changes may take several minutes to be reflected in published :syllabi:.
+            </source>
+            <target>Ce :docType est complété et affecte tous les :syllabi: associés. Les changements récents prendront
+                quelques minutes pour être visibles sur le :syllabi: publié.
+            </target>
+        </trans-unit>
+        <trans-unit id="statuspublishedTermSyllabus" datatype="html">
+            <source>
+                This :docType: is published and viewable by students. Recent changes may take several
+                seconds to be reflected.
+            </source>
+            <target>Ce :docType: est publié et visible par les étudiants.</target>
+        </trans-unit>
+        <trans-unit id="statusPublishedSyllabus" datatype="html">
+            <source>
+                This :docType: is published. Recent changes may take several seconds to be reflected.
+            </source>
+            <target>Ce :docType: est publié. Les changements récents prendront quelques secondes pour être visibles.
+            </target>
+        </trans-unit>
+        <trans-unit id="statusProcessingPublished" datatype="html">
+            <source>
+                This :docType: is currently processing. Any new updates may not be reflected until this is
+                completed.
+            </source>
+            <target>Ce :docType: est en cours de traitement. Toute nouvelle mise à jour pourraient de pas être visible
+                avant que ce soit terminé.
+            </target>
+        </trans-unit>
+        <trans-unit id="statusProcessing" datatype="html">
+            <source>
+                This :docType: is currently processing. It will become published once this is completed.
+            </source>
+            <target>Ce :docType: est en cours de traitement. Il sera publié une fois que ce sera terminé.</target>
+        </trans-unit>
+        <trans-unit id="newField" datatype="html">
+            <source>
+                Create new field
+            </source>
+            <target>Créer une nouvelle catégorie</target>
+        </trans-unit>
+        <trans-unit id="displayName" datatype="html">
+            <source>
+                display name
+            </source>
+            <target>Afficher le nom</target>
+        </trans-unit>
+        <trans-unit id="hideName" datatype="html">
+            <source>
+                name is hidden
+            </source>
+            <target>Le nom est caché</target>
+        </trans-unit>
+        <trans-unit id="errorNameRequired" datatype="html">
+            <source>Name is a required field</source>
+            <target>Nom est un champ obligatoire</target>
+        </trans-unit>
+        <trans-unit id="fieldPlainText" datatype="html">
+            <source>Plain text</source>
+            <target>Texte brut</target>
+        </trans-unit>
+        <trans-unit id="fieldRichText" datatype="html">
+            <source>Rich text</source>
+            <target>Texte enrichi</target>
+        </trans-unit>
+        <trans-unit id="fieldImage" datatype="html">
+            <source>Image</source>
+            <target>Image</target>
+        </trans-unit>
+        <trans-unit id="fieldLink" datatype="html">
+            <source>Link</source>
+            <target>Lien</target>
+        </trans-unit>
+        <trans-unit id="fieldType" datatype="html">
+            <source>Field type</source>
+            <target>Type de champ</target>
+        </trans-unit>
+        <trans-unit id="errorFieldType" datatype="html">
+            <source>Field type is a required field</source>
+            <target>Champ est un champ obligatoire</target>
+        </trans-unit>
+        <trans-unit id="none" datatype="html">
+            <source>none</source>
+            <target>Aucun</target>
+        </trans-unit>
+        <trans-unit id="requiresRichtext" datatype="html">
+            <source>- requires
+                rich text
+            </source>
+            <target>- nécessite du texte enrichi</target>
+        </trans-unit>
+        <trans-unit id="requiresImage" datatype="html">
+            <source>- requires
+                image
+            </source>
+            <target>- nécessite une image</target>
+        </trans-unit>
+        <trans-unit id="fieldAutopopulate" datatype="html">
+            <source>Auto populate</source>
+            <target>Remplir automatiquement</target>
+        </trans-unit>
+        <trans-unit id="fieldDefaultValue" datatype="html">
+            <source>Default value</source>
+            <target>Valeur par défaut</target>
+        </trans-unit>
+        <trans-unit id="required" datatype="html">
+            <source>
+                Required
+            </source>
+            <target>Obligatoire</target>
+        </trans-unit>
+        <trans-unit id="editFieldHeader" datatype="html">
+            <source>Modify</source>
+            <target>Modifier</target>
+        </trans-unit>
+        <trans-unit id="createComponent" datatype="html">
+            <source>Create new component</source>
+            <target>Créer une nouvelle partie</target>
+        </trans-unit>
+        <trans-unit id="materialsComponent" datatype="html">
+            <source>Materials</source>
+            <target>Documents</target>
+        </trans-unit>
+        <trans-unit id="objectivesComponent" datatype="html">
+            <source>Objectives</source>
+            <target>Objectifs</target>
+        </trans-unit>
+        <trans-unit id="instructor" datatype="html">
+            <source>Instructor</source>
+            <target>Instructeur</target>
+        </trans-unit>
+        <trans-unit id="componentType" datatype="html">
+            <source>Component type</source>
+            <target>Type de partie</target>
+        </trans-unit>
+        <trans-unit id="errorComponentType" datatype="html">
+            <source>Component type is a required field</source>
+            <target>Partie est un champ nécessaire</target>
+        </trans-unit>
+        <trans-unit id="reorderComponents" datatype="html">
+            <source>Reorder components</source>
+            <target>Réorganiser les parties</target>
+        </trans-unit>
+        <trans-unit id="uploadDragBrowse" datatype="html">
+            <source>
+                Drag file here, or click to browse.
+            </source>
+            <target>Déposer le fichier ici ou cliquer pour naviguer.</target>
+        </trans-unit>
+        <trans-unit id="upload" datatype="html">
+            <source>Upload</source>
+            <target>Télécharger</target>
+        </trans-unit>
+        <trans-unit id="uploadUrl" datatype="html">
+            <source>URL</source>
+            <target>URL</target>
+        </trans-unit>
+        <trans-unit id="buttonSave" datatype="html">
+            <source>
+                Save
+            </source>
+            <target>Sauver</target>
+        </trans-unit>
+        <trans-unit id="buttonCancel" datatype="html">
+            <source>
+                Cancel
+            </source>
+            <target>Annuler</target>
+        </trans-unit>
         <trans-unit id="conditionalAdd" datatype="html">
             <source>Add Conditional Logic</source>
             <target>Ajouter une Logique Conditionnelle</target>
