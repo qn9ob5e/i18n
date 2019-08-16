@@ -107,7 +107,6 @@
             <source>Manager</source>
             <target>Gestionnaire</target>
         </trans-unit>
-
         <trans-unit id="adminMenuSettings" datatype="html">
             <source>Settings</source>
             <target>Configuration</target>
@@ -120,13 +119,12 @@
             <source>Warning</source>
             <target>Attention</target>
         </trans-unit>
-<!--        <trans-unit id="warningDeactivateChildren" datatype="html">-->
-<!--            <source>-->
-<!--                Inactivating this item will automatically inactivate its children:-->
-<!--            </source>-->
-<!--            <target>Désactiver cet élément désactivera automatiquement ses dépendants.</target>-->
-<!--        </trans-unit>-->
-
+        <trans-unit id="warningDeactivateChildren" datatype="html">
+            <source>
+                Inactivating this item will automatically inactivate its children:
+            </source>
+            <target>Désactiver cet élément désactivera automatiquement ses dépendants.</target>
+        </trans-unit>
         <trans-unit id="buttonClose" datatype="html">
             <source>
                 Close
