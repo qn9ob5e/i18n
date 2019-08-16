@@ -108,14 +108,14 @@
             <target>Gestionnaire</target>
         </trans-unit>
 
-<!--        <trans-unit id="adminMenuSettings" datatype="html">-->
-<!--            <source>Settings</source>-->
-<!--            <target>Configuration</target>-->
-<!--        </trans-unit>-->
-<!--        <trans-unit id="menuLogout" datatype="html">-->
-<!--            <source>Logout</source>-->
-<!--            <target>Déconnexion</target>-->
-<!--        </trans-unit>-->
+        <trans-unit id="adminMenuSettings" datatype="html">
+            <source>Settings</source>
+            <target>Configuration</target>
+        </trans-unit>
+        <trans-unit id="menuLogout" datatype="html">
+            <source>Logout</source>
+            <target>Déconnexion</target>
+        </trans-unit>
 <!--        <trans-unit id="warning" datatype="html">-->
 <!--            <source>Warning</source>-->
 <!--            <target>Attention</target>-->
