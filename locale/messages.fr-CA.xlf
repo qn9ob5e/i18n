@@ -119,6 +119,12 @@
             <source>Warning</source>
             <target>Attention</target>
         </trans-unit>
+<!--            <trans-unit id="warningDeactivateChildren" datatype="html">-->
+<!--                <source>-->
+<!--                    Inactivating this item will automatically inactivate its children:-->
+<!--                </source>-->
+<!--                <target>Champ Plateforme d'apprentissage en ligne (LMS)</target>-->
+<!--            </trans-unit>-->
         <trans-unit id="buttonClose" datatype="html">
             <source>
                 Close
@@ -898,9 +904,7 @@
             <target>Suivi</target>
         </trans-unit>
         <trans-unit id="edit" datatype="html">
-            <source>
-                Edit syllabus
-            </source>
+            <source>Edit syllabus</source>
             <target></target>
         </trans-unit>
         <trans-unit id="viewOtherSyllabi" datatype="html">
@@ -1531,7 +1535,7 @@
             <source>
                 Restore this sandbox site from the current production site.
             </source>
-            <target></target>
+                <target>Restaurer ce site bac à sable à partir du site de production actuel.</target>
         </trans-unit>
         <trans-unit id="sandboxRestoreReplaceData" datatype="html">
             <source>All current data on this site will be replaced with data from the production site.</source>
@@ -1539,11 +1543,11 @@
         </trans-unit>
         <trans-unit id="sandboxRestoreIntegrations  " datatype="html">
             <source>All production data-hub integrations will be disabled on the sandbox site.</source>
-            <target></target>
+                <target>Toutes les intégrations du centre de donnée de production seront désactivées sur le site bac à sable.</target>
         </trans-unit>
         <trans-unit id="sandboxRestoreUnavailable" datatype="html">
             <source>This sandbox site may be unavailable for several minutes while this process is taking place.</source>
-            <target></target>
+                <target>Ce site bac à sable sera indisponible plusieurs minutes pendant cette opération. </target>
         </trans-unit>
         <trans-unit id="buttonRestoreSite" datatype="html">
             <source>
@@ -1918,21 +1922,21 @@
         </trans-unit>
         <trans-unit id="placeholderSectionLmsId" datatype="html">
             <source>Section LMS ID field</source>
-            <target></target>
+                <target>Section Plateforme d'apprentissage en ligne (LMS) champ</target>
         </trans-unit>
         <trans-unit id="errorMissingId" datatype="html">
             <source>
                 Either the SIS ID or the :connectionType: ID field must be populated.
             </source>
-            <target></target>
+                <target>Le champ Système d'Information Étudiant (SIS) ou le champ :connectionType: doit être rempli.</target>
         </trans-unit>
         <trans-unit id="placeholderAccountId" datatype="html">
             <source>Account SIS ID field</source>
-            <target></target>
+                <target>Champ Système d'Information de l'Étudiant</target>
         </trans-unit>
         <trans-unit id="placeholderAccountLmsId" datatype="html">
             <source>Account LMS ID field</source>
-            <target></target>
+                <target>Champ compte Plateforme d'apprentissage en ligne (LMS)</target>
         </trans-unit>
         <trans-unit id="dataRecurringConnectionHeader" datatype="html">
             <source>Recurring connections</source>
@@ -1946,11 +1950,11 @@
         </trans-unit>
         <trans-unit id="dataLastChecked" datatype="html">
             <source>last checked</source>
-            <target></target>
+                <target>dernière vue</target>
         </trans-unit>
         <trans-unit id="dataCreatingKey" datatype="html">
             <source>Creating new key</source>
-            <target></target>
+                <target>Création de la nouvelle clé</target>
         </trans-unit>
         <trans-unit id="dataKeyCreated" datatype="html">
             <source>LTI Key created</source>
@@ -1968,19 +1972,19 @@
         </trans-unit>
         <trans-unit id="dataLtiSecret" datatype="html">
             <source>LTI Secret</source>
-            <target></target>
+                <target>LTI secrète</target>
         </trans-unit>
         <trans-unit id="secretMessage" datatype="html">
             <source>
                 Please record this secret, this is the only time you will have access to it.
             </source>
-            <target></target>
+                <target>Merci d'enregistrer ce code secret, c'est le seul moment où vous pourrez y avoir accès</target>
         </trans-unit>
         <trans-unit id="secretCopied" datatype="html">
             <source>
                 Copied LTI Secret to clipboard.
             </source>
-            <target></target>
+                <target>LTI secrète copiée dans le presse-papier.</target>
         </trans-unit>
         <trans-unit id="errorOccurred" datatype="html">
             <source>An error occurred</source>
@@ -1988,7 +1992,7 @@
         </trans-unit>
         <trans-unit id="errorLti" datatype="html">
             <source>An error occurred while attempting to create the LTI key. Please try again or contact support.</source>
-            <target></target>
+                <target>Une erreur a eu lieu lors de la création de la clé LTI. Merci de réessayer ou de contacter l'assistance.</target>
         </trans-unit>
         <trans-unit id="buttonGenerateKey" datatype="html">
             <source>
@@ -2006,15 +2010,15 @@
         </trans-unit>
         <trans-unit id="errorNameInUse" datatype="html">
             <source>This name is in use by another :subject:</source>
-            <target></target>
+                <target>Ce nom est utilisé par un autre :subject:</target>
         </trans-unit>
         <trans-unit id="errorNameInactive" datatype="html">
             <source>This name is in use by an inactive :subject:, please reactivate.</source>
-            <target></target>
+                <target>Ce nom est utilisé par un :subject: inactive, merci de réactiver.</target>
         </trans-unit>
         <trans-unit id="subjectParent" datatype="html">
             <source>Parent organization</source>
-            <target></target>
+                <target>Organisation mère</target>
         </trans-unit>
         <trans-unit id="addSubject" datatype="html">
             <source>
@@ -2024,7 +2028,7 @@
         </trans-unit>
         <trans-unit id="onlyOrphans" datatype="html">
             <source>Only show orphans</source>
-            <target></target>
+                <target>Montrer uniquement les éléments isolés </target>
         </trans-unit>
         <trans-unit id="tooltipEdit" datatype="html">
             <source>Edit</source>
@@ -2062,7 +2066,7 @@
         </trans-unit>
         <trans-unit id="placeholderCopyTemplate" datatype="html">
             <source>Copy template from</source>
-            <target></target>
+                <target>Copier le modèle à partir de </target>
         </trans-unit>
         <trans-unit id="placeholderCopCourses" datatype="html">
             <source>Copy :courses: from</source>
@@ -2088,7 +2092,7 @@
         </trans-unit>
         <trans-unit id="courseIncludeChildren" datatype="html">
             <source>Include Children</source>
-            <target></target>
+                <target>Inclure Dépendants</target>
         </trans-unit>
         <trans-unit id="coursesFilter" datatype="html">
             <source>Please choose a filter to search for :Courses:.</source>
@@ -2100,11 +2104,11 @@
         </trans-unit>
         <trans-unit id="errorCourseNumber" datatype="html">
             <source>:Course: number is a required field</source>
-            <target></target>
+                <target>Numéro de :course: est un champ obligatoire</target>
         </trans-unit>
         <trans-unit id="errorCourseNumberLength" datatype="html">
             <source>Course number may not be longer than 40 characters</source>
-            <target></target>
+                <target>Le numéro de cours ne peut pas mesurer plus de 40 caractères</target>
         </trans-unit>
         <trans-unit id="placeholderTitle" datatype="html">
             <source>Title</source>
@@ -2116,7 +2120,7 @@
         </trans-unit>
         <trans-unit id="unassignedCourses" datatype="html">
             <source>Unassigned :Courses:</source>
-            <target></target>
+                <target>Non assigné :Courses:</target>
         </trans-unit>
         <trans-unit id="buttonReassign" datatype="html">
             <source>
@@ -2132,15 +2136,15 @@
         </trans-unit>
         <trans-unit id="tooltipArchivedCourses" datatype="html">
             <source>Archived :courses: must be individually assigned</source>
-            <target></target>
+                <target>Les :courses: archivés doivent être assignés individuellement</target>
         </trans-unit>
         <trans-unit id="formUnassigned" datatype="html">
             <source>Please use the above form to search for unassigned :courses:</source>
-            <target></target>
+                <target>Merci d'utiliser le formulaire ci-dessous pour rechercher des :courses: non assignés</target>
         </trans-unit>
         <trans-unit id="unassignNoResults" datatype="html">
             <source>No unassigned :courses: meet the selected criteria</source>
-            <target></target>
+                <target>Aucun :courses: non assigné ne correspond aux critères sélectionnés</target>
         </trans-unit>
         <trans-unit id="headerAssignedCourses" datatype="html">
             <source>Assigned :courses:</source>
@@ -2148,15 +2152,15 @@
         </trans-unit>
         <trans-unit id="orgNoCourses" datatype="html">
             <source>:organization_name: does not have any assigned :courses:</source>
-            <target></target>
+                <target>:organization_name: n'a pas de :courses: non assignés</target>
         </trans-unit>
         <trans-unit id="assignedNoResults" datatype="html">
             <source>No assigned :courses: meet the selected criteria</source>
-            <target></target>
+                <target>Aucun :courses: non assigné ne correspond au critère sélectionné</target>
         </trans-unit>
         <trans-unit id="errorSectionName" datatype="html">
             <source>This name is in use by another :section:</source>
-            <target></target>
+                <target>Ce nom est utilisé par une autre :section:</target>
         </trans-unit>
         <trans-unit id="buttonAddSection" datatype="html">
             <source>
@@ -2168,17 +2172,17 @@
             <source>
                 Show active
             </source>
-            <target></target>
+                <target>Montrer les sections actives</target>
         </trans-unit>
         <trans-unit id="inactiveParents" datatype="html">
             <source>
                 Has inactive parents:
             </source>
-            <target></target>
+                <target>A une entité mère inactive:</target>
         </trans-unit>
         <trans-unit id="headerSetPassword" datatype="html">
             <source>Set password</source>
-            <target></target>
+                <target>Créer le mot de passe</target>
         </trans-unit>
         <trans-unit id="placeholderNewPassword" datatype="html">
             <source>New password</source>
@@ -2250,19 +2254,19 @@
         </trans-unit>
         <trans-unit id="email" datatype="html">
             <source>Email</source>
-            <target></target>
+                <target>E-mail</target>
         </trans-unit>
         <trans-unit id="buttonUpdatePassword" datatype="html">
             <source>
                 Update password
             </source>
-            <target></target>
+                <target>Mettre à jour le mot de passe</target>
         </trans-unit>
         <trans-unit id="buttonEmailUpdatePassword" datatype="html">
             <source>
                 Email user to update password
             </source>
-            <target></target>
+                <target>Envoyer un e-mail à l'utilisateur pour mettre à jour le mot de passe</target>
         </trans-unit>
         <trans-unit id="buttonCreatePassword" datatype="html">
             <source>
@@ -2274,7 +2278,7 @@
             <source>
                 Email user to create password
             </source>
-            <target></target>
+                <target>Envoyer un e-mail à l'utilisateur pour créer le mot de passe</target>
         </trans-unit>
         <trans-unit id="accountsRegistrationSent" datatype="html">
             <source>Registration email sent on</source>
@@ -2292,7 +2296,7 @@
             <source>
                 Save and new
             </source>
-            <target></target>
+                <target>Sauvegarder et créer nouveau</target>
         </trans-unit>
         <trans-unit id="accountsAdd" datatype="html">
             <source>
@@ -2302,7 +2306,7 @@
         </trans-unit>
         <trans-unit id="oneUnregistered" datatype="html">
             <source>There is currently 1 user who has not yet registered their Simple Syllabus account. Click the button below to send a registration email to all unregistered users.</source>
-            <target></target>
+                <target>Il y a actuellement un utilisateur qui n'a pas encore enregistré son compte Simple Syllabus. Cliquez sur le bouton ci-dessous pour envoyer un e-mail d'inscription à tous les utilisateurs non enregistrés.</target>
         </trans-unit>
         <trans-unit id="sendRegistration" datatype="html">
             <source>
@@ -2312,7 +2316,7 @@
         </trans-unit>
         <trans-unit id="multipleUnregistered" datatype="html">
             <source>There are currently :unregisteredAccounts: users who have not yet registered their Simple Syllabus account. Click the button below to send a registration email to all unregistered users.</source>
-            <target></target>
+                <target>Il y a actuellement :unregisteredAccounts: qui n'ont pas encore enregistré leur compte Simple Syllabus. Cliquez sur le bouton ci-dessous pour envoyer un e-mail d'inscription à tous les utilisateurs non enregistrés.</target>
         </trans-unit>
         <trans-unit id="accountsSendRegistration" datatype="html">
             <source>
@@ -2330,49 +2334,49 @@
         </trans-unit>
         <trans-unit id="loginRegister" datatype="html">
             <source>Register your Simple Syllabus account</source>
-            <target></target>
+                <target>Enregistrer votre compte Simple Syllabus</target>
         </trans-unit>
         <trans-unit id="signIn" datatype="html">
             <source>Sign in to Simple Syllabus</source>
-            <target></target>
+                <target>S'inscrire à Simple Syllabus</target>
         </trans-unit>
         <trans-unit id="loginSSO" datatype="html">
             <source>Login using your institution credentials</source>
-            <target></target>
+                <target>Se connecter en utilisant les codes de votre institution</target>
         </trans-unit>
         <trans-unit id="loginSimpleCredentials" datatype="html">
             <source>
                 Click here to login with your Simple Syllabus email and password.
             </source>
-            <target></target>
+                <target>Cliquez ici pour vous connecter avec votre e-mail et votre mot de passe Simple Syllabus.</target>
         </trans-unit>
         <trans-unit id="loginNoPassword" datatype="html">
             <source>
                 Don't have a password?
             </source>
-            <target></target>
+                <target>Vous n'avez pas de mot de passe ?</target>
         </trans-unit>
         <trans-unit id="loginClickToRegister" datatype="html">
             <source>
                 Click here to register.
             </source>
-            <target></target>
+                <target>Cliquer pour s'enregistrer.</target>
         </trans-unit>
         <trans-unit id="errorLoginUnsuccessful" datatype="html">
             <source>Invalid email or password, please try again.</source>
-            <target></target>
+                <target>E-mail ou mot de passe invalide. Merci de réessayer.</target>
         </trans-unit>
         <trans-unit id="errorRegistrationInUseEmail" datatype="html">
             <source>
                 This email address could not be found, or it is already registered. You may want to try to reset your password from the Login page, or contact support.
             </source>
-            <target></target>
+                <target>Cette adresse e-mail est introuvable ou déjà enregistrée. Vous pouvez essayer de réinitialiser votre mot de passe à partir de la page de connexion ou contacter l'assistance.</target>
         </trans-unit>
         <trans-unit id="buttonReset" datatype="html">
             <source>
                 Reset
             </source>
-            <target></target>
+                <target>Réinitialiser</target>
         </trans-unit>
         <trans-unit id="buttonSignIn" datatype="html">
             <source>Sign in</source>
